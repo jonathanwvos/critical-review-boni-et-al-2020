@@ -1,0 +1,101 @@
+IQ-TREE multicore version 2.2.6 COVID-edition for Linux 64-bit built Dec  8 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Rubicon (AVX512, FMA3, 30 GB RAM)
+Command: /home/jono/miniconda3/envs/phylo/bin/iqtree2 -s /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/alignments/78_taxa/NRA3_Block1_ORF1a.aln.fasta -m GTR+G4 -z /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/nra3_candidate_blocks.tre -zb 10000 -au -T 8 --prefix /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/au_test_Block1_ORF1a --redo
+Seed:    579419 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Sep 24 20:59:11 2026
+Kernel:  AVX+FMA - 8 threads (16 CPU cores detected)
+
+Reading alignment file /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/alignments/78_taxa/NRA3_Block1_ORF1a.aln.fasta ... Fasta format detected
+Reading fasta file: done in 0.00741001 secs using 76.44% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00982501 secs using 400.4% CPU
+WARNING: 61 sites contain only gaps or ambiguous characters.
+Alignment has 78 sequences with 14000 columns, 6548 distinct patterns
+5920 parsimony-informative, 935 singleton sites, 7145 constant sites
+                                                                         Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000204936 secs using 90.76% CPU
+   1  RpShaanxi2011|Bat-R_pusillus|Shaanxi|JX993987|2011-09                     18.14%    failed      0.06%
+   2  HuB2013|Bat-Bat-R_sinicus|Hubei|KJ473814|2013-04                          61.01%    passed      8.54%
+   3  279_2005|Bat-R_macrotis|Hubei|DQ648857|2004-11                            47.56%    passed     74.24%
+   4  Rm1|Bat-R_macrotis|Hubei|DQ412043|2004-11                                 50.56%    passed     72.49%
+   5  Longquan_140|Bat-R_monoceros|China|KF294457|2012                          96.21%    failed      0.26%
+   6  HKU3-1|Bat-R_sinicus|Hong_Kong|DQ022305|2005-02-17                        96.21%    failed      0.62%
+   7  HKU3-3|Bat-R_sinicus|Hong_Kong|DQ084200|2005-03-17                        96.21%    failed      0.62%
+   8  HKU3-2|Bat-R_sinicus|Hong_Kong|DQ084199|2005-02-24                        96.21%    failed      0.48%
+   9  HKU3-4|Bat-R_sinicus|Hong_Kong|GQ153539|2005-07-20                        96.21%    failed      0.62%
+  10  HKU3-6|Bat-R_sinicus|Hong_Kong|GQ153541|2005-12-16                        96.21%    failed      0.62%
+  11  HKU3-5|Bat-R_sinicus|Hong_Kong|GQ153540|2005-09-20                        96.21%    failed      0.48%
+  12  HKU3-10|Bat-R_sinicus|Hong_Kong|GQ153545|2006-10-28                       96.21%    failed      0.65%
+  13  HKU3-9|Bat-R_sinicus|Hong_Kong|GQ153544|2006-10-28                        96.21%    failed      0.65%
+  14  HKU3-11|Bat-R_sinicus|Hong_King|GQ153546|2007-03-07                       96.21%    failed      0.83%
+  15  HKU3-13|Bat-R_sinicus|Hong_Kong|GQ153548|2007-11-15                       96.21%    failed      0.65%
+  16  HKU3-12|Bat-R_sinicus|Hong_Kong|GQ153547|2007-05-15                       96.21%    failed      0.62%
+  17  HKU3-7|Bat-R_sinicus|Guangdong|GQ153542|2006-02-15                        96.21%    failed      0.50%
+  18  HKU3-8|Bat-R_sinicus|Guangdong|GQ153543|2006-02-15                        96.21%    failed      0.50%
+  19  GX2013|Bat-R_sinicus|Guangxi|KJ473815|2012-11                             93.42%    failed      0.67%
+  20  Rp3|Bat-R_pearsoni|Guangxi-Nanning|DQ071615|2004-12                       65.23%    failed      2.64%
+  21  Rf4092|Bat-R_ferrumequinum|Yunnan-Kunming|KY417145|2012-09-18             88.96%    failed      0.00%
+  22  YN2013|Bat-R_sinicus|Yunnan|KJ473816|2010-12                              88.96%    failed      0.00%
+  23  Anlong-103|Bat-R_sinicus|Guizhou-Anlong|KY770858|2013                     88.96%    failed      0.06%
+  24  Anlong-112|Bat-R_sinicus|Guizhou-Anlong|KY770859|2013                     88.96%    failed      0.06%
+  25  Rs4231|Bat-R_sinicus|Yunnan-Kunming|KY417146|2013-04-17                   51.54%    failed      0.39%
+  26  WIV16|Bat-R_sinicus|Yunnan-Kunming|KT444582|2013-07-21                    78.70%    failed      0.00%
+  27  Rs4874|Bat-R_sinicus|Yunnan-Kunming|KY417150|2013-07-21                   95.39%    failed      0.02%
+  28  YN2018B|Bat-R_affinis|Yunnan|MK211376|2016-09                             67.46%    failed      0.00%
+  29  Rs7327|Bat-R_sinicus|Yunnan--Kunming|KY417151|2014-10-24                  40.93%    failed      2.25%
+  30  Rs9401|Bat-R_sinicus|Yunnan-Kunming|KY417152|2015-10-16                   82.54%    failed      0.04%
+  31  RsSHC014|Bat-R_sinicus|Yunnan-Kunming|KC881005|2011-04-17                 35.13%    failed      1.93%
+  32  Rs3367|Bat-R_sinicus|Yunnan-Kunming|KC881006|2012-03-19                   75.96%    failed      0.01%
+  33  WIV1|Bat-R_sinicus|Yunnan-Kunming|KF367457|2012-09                        75.96%    failed      0.01%
+  34  Rs4084|Bat-R_sinicus|Yunnan-Kunming|KY417144|2012-09-18                   88.96%    failed      0.01%
+  35  YN2018C|Bat-R_affinis|Yunnan-Kunming|MK211377|2016-09                     95.28%    failed      0.02%
+  36  As6526|Bat-Aselliscus_stoliczkanus|Yunnan-Kunming|KY417142|2014-05-12      1.78%    passed     19.36%
+  37  Rs4237|Bat-R_sinicus|Yunnan-Kunming|KY417147|2013-04-17                   96.09%    failed      0.01%
+  38  Rs4247|Bat-R_sinicus|Yunnan-Kunming|KY417148|2013-04-17                   84.21%    failed      0.02%
+  39  YN2018A|Bat-R_affinis|Yunnan|MK211375|2016-09                             28.96%    failed      0.88%
+  40  YN2018D|Bat-R_affinis|Yunnan|MK211378|2016-09                             35.13%    failed      2.23%
+  41  Rs4081|Bat-R_sinicus|Yunnan-Kunming|KY417143|2012-09-18                   78.70%    failed      0.00%
+  42  Rs4255|Bat-R_sinicus|Yunnan-Kunming|KY417149|2013-04-17                   95.39%    failed      0.01%
+  43  Rs672|Bat-R_sinicus|Guizhou|FJ588686|2006-09                              33.38%    failed      3.76%
+  44  HSZ-Cc|SARS-CoV-1|Guangzhou|AY394995|2002                                 88.96%    failed      0.01%
+  45  F46|Bat-R_pusillus|Yunnan|KU973692|2012                                   79.47%    failed      0.01%
+  46  YNLF_31C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886808|2013-05-23            83.65%    passed     39.58%
+  47  YNLF_34C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886809|2013-05-23            83.65%    passed     34.63%
+  48  LYRa11|Bat-R_affinis|Yunnan-Baoshan|KF569996|2011                        100.00%    passed      -nan%
+  49  Yunnan2011|Bat-Chaerephon_plicata|Yunnan|JX993988|2011-11                 79.47%    failed      0.01%
+  50  SC2018|Bat-R_spp|Sichuan|MK211374|2016-10                                 71.58%    failed      3.52%
+  51  JL2012|Bat-R_ferrumequinum|Jilin|KJ473811|2012-10                         83.57%    failed      1.27%
+  52  JTMC15|Bat-R_ferrumequinum|Jilin|KU182964|2013-10                         83.57%    failed      2.35%
+  53  HeB2013|Bat-R_ferrumequinum|Hebei|KJ473812|2013-04                        83.57%    failed      2.66%
+  54  SX2013|Bat-R_ferrumequinum|Shanxi|KJ473813|2013-11                        83.57%    failed      2.11%
+  55  Jiyuan-84|Bat-R_ferrumequinum|Henan-Jiyuan|KY770860|2012                  83.57%    failed      2.04%
+  56  Rf1|Bat-R_ferrumequinum|Hubei-Yichang|DQ412042|2004-11                    83.57%    failed      0.79%
+  57  CoVZC45|Bat-R_sinicus|Zhoushan-Dinghai|MG772933|2017-02                   20.52%    failed      0.00%
+  58  CoVZXC21|Bat-R_sinicus|Zhoushan-Dinghai|MG772934|2015-07                  31.10%    failed      0.00%
+  59  PrC31|Bat-R_spp|Yunnan|EPI_ISL_1098866|2018-08                             1.33%    failed      0.00%
+  60  Wuhan-Hu-1|SARS-CoV-2|Wuhan|MN908947|2019-12                               3.64%    failed      0.00%
+  61  RaTG13|Bat-R_affinis|Yunnan|EPI_ISL_402131|2013-07-24                      3.64%    failed      0.00%
+  62  RShSTT182|Bat-R_shameli|Steung_Treng-Cambodia|EPI_ISL_852604|2010-12-06    1.44%    failed      0.00%
+  63  RShSTT200|Bat-R_shameli|Steung_Treng-Cambodia|EPI_ISL_852605|2010-12-06    1.44%    failed      0.00%
+  64  RmYN02|EPI_ISL_412977|China|Yunnan|Xishuangbanna|2019-06-25                1.33%    failed      0.00%
+  65  RpYN06                                                                     1.31%    failed      0.00%
+  66  RacCS203|Bat-R_acuminatus|Thailand|MW251308.1|2020-06-19                   1.59%    failed      0.00%
+  67  Pangolin-CoV|pangolin|Guandong|EPI_ISL_410721|2020-02-16                  69.61%    failed      4.44%
+  68  P4L|pangolin|Guangxi|EPI_ISL_410538|2017                                  79.99%    passed     16.65%
+  69  P5L|pangolin|Guangxi||EPI_ISL_410540|2017                                 79.99%    passed     15.54%
+  70  P5E|pangolin|Guangxi|EPI_ISL_410541|2017                                  79.99%    passed     15.54%
+  71  P1E|pangolin|Guangxi|EPI_ISL_410539|2017                                  79.99%    passed     15.54%
+  72  P2V|pangolin|Guangxi|EPI_ISL_410542|2017                                   8.54%    failed      0.00%
+  73  Rc-o319|Bat-R_cornutus|Iwate-Japan|LC556375.1|2013                         1.59%    failed      3.49%
+  74  BtKY72|Bat-R_spp|Kenya|KY352407|2007-10                                    2.27%    failed      0.01%
+  75  BM48-31|Bat-R_blasii|Bulgaria|NC_014470|2008-04                           69.51%    failed      3.00%
+  76  RsYN04                                                                     1.61%    failed      3.34%
+  77  RmYN05                                                                     1.61%    failed      2.99%
+  78  RmYN08                                                                     1.61%    failed      3.67%
+WARNING: 54 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                     62.97%  67 sequences failed composition chi2 test (p-value<5%; df=3)
+WARNING: Sequence LYRa11|Bat-R_affinis|Yunnan-Baoshan|KF569996|2011 contains only gaps or missing data
+ERROR: Some sequences (see above) are problematic, please check your alignment again

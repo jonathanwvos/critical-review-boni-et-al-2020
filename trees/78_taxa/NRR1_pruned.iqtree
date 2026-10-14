@@ -1,0 +1,425 @@
+IQ-TREE 2.2.6 COVID-edition built Dec  8 2023
+
+Input file name: /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/alignments/78_taxa/NRR1_pruned.aln.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 435500
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 73 sequences with 13060 nucleotide sites
+Number of constant sites: 7069 (= 54.1271% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 7069 (= 54.1271% of all sites)
+Number of parsimony informative sites: 5248
+Number of distinct site patterns: 4789
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 1.5615
+  A-G: 7.2618
+  A-T: 2.1228
+  C-G: 0.6270
+  C-T: 14.6551
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2818
+  pi(C) = 0.1905
+  pi(G) = 0.2071
+  pi(T) = 0.3206
+
+Rate matrix Q:
+
+  A   -0.7361   0.08824     0.446    0.2019
+  C    0.1305    -1.563   0.03851     1.394
+  G     0.607   0.03543   -0.7376    0.0951
+  T    0.1775    0.8281   0.06142    -1.067
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.2678
+
+ Category  Relative_rate  Proportion
+  1         0.003047       0.25
+  2         0.07981        0.25
+  3         0.5375         0.25
+  4         3.38           0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -113572.3447 (s.e. 1062.3803)
+Unconstrained log-likelihood (without tree): -69432.7295
+Number of free parameters (#branches + #model parameters): 152
+Akaike information criterion (AIC) score: 227448.6894
+Corrected Akaike information criterion (AICc) score: 227452.2930
+Bayesian information criterion (BIC) score: 228585.2404
+
+Total tree length (sum of branch lengths): 2.7874
+Sum of internal branch lengths: 1.5597 (55.9566% of tree length)
+
+WARNING: 5 near-zero internal branches (<0.0001) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'RpShaanxi2011|Bat-R_pusillus|Shaanxi|JX993987|2011-09' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--RpShaanxi2011|Bat-R_pusillus|Shaanxi|JX993987|2011-09
+|
+|     +--HuB2013|Bat-Bat-R_sinicus|Hubei|KJ473814|2013-04
+|  +--| (100)
+|  |  |  +--279_2005|Bat-R_macrotis|Hubei|DQ648857|2004-11
+|  |  +--| (100)
+|  |     +--Rm1|Bat-R_macrotis|Hubei|DQ412043|2004-11
++--| (100)
+|  |     +--Longquan_140|Bat-R_monoceros|China|KF294457|2012
+|  |  +--| (100)
+|  |  |  |           +**HKU3-1|Bat-R_sinicus|Hong_Kong|DQ022305|2005-02-17
+|  |  |  |        +--| (98)
+|  |  |  |        |  +**HKU3-3|Bat-R_sinicus|Hong_Kong|DQ084200|2005-03-17
+|  |  |  |     +--| (100)
+|  |  |  |     |  |        +**HKU3-2|Bat-R_sinicus|Hong_Kong|DQ084199|2005-02-24
+|  |  |  |     |  |     +**| (18)
+|  |  |  |     |  |     |  |  +--HKU3-4|Bat-R_sinicus|Hong_Kong|GQ153539|2005-07-20
+|  |  |  |     |  |     |  +**| (18)
+|  |  |  |     |  |     |     |        +**HKU3-10|Bat-R_sinicus|Hong_Kong|GQ153545|2006-10-28
+|  |  |  |     |  |     |     |     +--| (100)
+|  |  |  |     |  |     |     |     |  +**HKU3-9|Bat-R_sinicus|Hong_Kong|GQ153544|2006-10-28
+|  |  |  |     |  |     |     |  +--| (97)
+|  |  |  |     |  |     |     |  |  +--HKU3-11|Bat-R_sinicus|Hong_King|GQ153546|2007-03-07
+|  |  |  |     |  |     |     +--| (93)
+|  |  |  |     |  |     |        +--HKU3-13|Bat-R_sinicus|Hong_Kong|GQ153548|2007-11-15
+|  |  |  |     |  |  +**| (34)
+|  |  |  |     |  |  |  +**HKU3-5|Bat-R_sinicus|Hong_Kong|GQ153540|2005-09-20
+|  |  |  |     |  +--| (94)
+|  |  |  |     |     +--HKU3-6|Bat-R_sinicus|Hong_Kong|GQ153541|2005-12-16
+|  |  |  |  +--| (100)
+|  |  |  |  |  +--HKU3-12|Bat-R_sinicus|Hong_Kong|GQ153547|2007-05-15
+|  |  |  +--| (100)
+|  |  |     |  +**HKU3-7|Bat-R_sinicus|Guangdong|GQ153542|2006-02-15
+|  |  |     +--| (100)
+|  |  |        +--HKU3-8|Bat-R_sinicus|Guangdong|GQ153543|2006-02-15
+|  +--| (84)
+|     |                       +--GX2013|Bat-R_sinicus|Guangxi|KJ473815|2012-11
+|     |                    +--| (100)
+|     |                    |  +--Rp3|Bat-R_pearsoni|Guangxi-Nanning|DQ071615|2004-12
+|     |                 +--| (88)
+|     |                 |  |  +--Anlong-103|Bat-R_sinicus|Guizhou-Anlong|KY770858|2013
+|     |                 |  +--| (100)
+|     |                 |     +**Anlong-112|Bat-R_sinicus|Guizhou-Anlong|KY770859|2013
+|     |              +--| (71)
+|     |              |  +--Rs672|Bat-R_sinicus|Guizhou|FJ588686|2006-09
+|     |           +--| (80)
+|     |           |  |        +--Rf4092|Bat-R_ferrumequinum|Yunnan-Kunming|KY417145|2012-09-18
+|     |           |  |     +--| (72)
+|     |           |  |     |  |        +--Rs4231|Bat-R_sinicus|Yunnan-Kunming|KY417146|2013-04-17
+|     |           |  |     |  |     +--| (67)
+|     |           |  |     |  |     |  |        +--WIV16|Bat-R_sinicus|Yunnan-Kunming|KT444582|2013-07-21
+|     |           |  |     |  |     |  |     +--| (100)
+|     |           |  |     |  |     |  |     |  +--Rs4874|Bat-R_sinicus|Yunnan-Kunming|KY417150|2013-07-21
+|     |           |  |     |  |     |  |  +--| (100)
+|     |           |  |     |  |     |  |  |  +--Rs4081|Bat-R_sinicus|Yunnan-Kunming|KY417143|2012-09-18
+|     |           |  |     |  |     |  +--| (98)
+|     |           |  |     |  |     |     +--Rs4247|Bat-R_sinicus|Yunnan-Kunming|KY417148|2013-04-17
+|     |           |  |     |  |  +--| (78)
+|     |           |  |     |  |  |  +--Rs4237|Bat-R_sinicus|Yunnan-Kunming|KY417147|2013-04-17
+|     |           |  |     |  +--| (86)
+|     |           |  |     |     |     +--Rs3367|Bat-R_sinicus|Yunnan-Kunming|KC881006|2012-03-19
+|     |           |  |     |     |  +--| (100)
+|     |           |  |     |     |  |  +--WIV1|Bat-R_sinicus|Yunnan-Kunming|KF367457|2012-09
+|     |           |  |     |     +--| (74)
+|     |           |  |     |        +--Rs4255|Bat-R_sinicus|Yunnan-Kunming|KY417149|2013-04-17
+|     |           |  |  +--| (76)
+|     |           |  |  |  |              +--YN2018B|Bat-R_affinis|Yunnan|MK211376|2016-09
+|     |           |  |  |  |           +--| (96)
+|     |           |  |  |  |           |  +--YN2018D|Bat-R_affinis|Yunnan|MK211378|2016-09
+|     |           |  |  |  |        +--| (97)
+|     |           |  |  |  |        |  +--As6526|Bat-Aselliscus_stoliczkanus|Yunnan-Kunming|KY417142|2014-05-12
+|     |           |  |  |  |     +--| (96)
+|     |           |  |  |  |     |  +--YN2018C|Bat-R_affinis|Yunnan-Kunming|MK211377|2016-09
+|     |           |  |  |  |  +--| (72)
+|     |           |  |  |  |  |  +--Rs9401|Bat-R_sinicus|Yunnan-Kunming|KY417152|2015-10-16
+|     |           |  |  |  +--| (87)
+|     |           |  |  |     +--Rs7327|Bat-R_sinicus|Yunnan--Kunming|KY417151|2014-10-24
+|     |           |  +--| (88)
+|     |           |     |     +--YN2013|Bat-R_sinicus|Yunnan|KJ473816|2010-12
+|     |           |     |  +--| (100)
+|     |           |     |  |  |  +--RsSHC014|Bat-R_sinicus|Yunnan-Kunming|KC881005|2011-04-17
+|     |           |     |  |  +--| (100)
+|     |           |     |  |     +--Rs4084|Bat-R_sinicus|Yunnan-Kunming|KY417144|2012-09-18
+|     |           |     +--| (87)
+|     |           |        +--YN2018A|Bat-R_affinis|Yunnan|MK211375|2016-09
+|     |        +--| (83)
+|     |        |  |  +--HSZ-Cc|SARS-CoV-1|Guangzhou|AY394995|2002
+|     |        |  +--| (50)
+|     |        |     |  +--YNLF_31C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886808|2013-05-23
+|     |        |     +--| (100)
+|     |        |        +--YNLF_34C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886809|2013-05-23
+|     |     +--| (99)
+|     |     |  +--Yunnan2011|Bat-Chaerephon_plicata|Yunnan|JX993988|2011-11
+|     |  +--| (100)
+|     |  |  |  +--F46|Bat-R_pusillus|Yunnan|KU973692|2012
+|     |  |  +--| (100)
+|     |  |     +--LYRa11|Bat-R_affinis|Yunnan-Baoshan|KF569996|2011
+|     +--| (100)
+|        |                 +--PrC31|Bat-R_spp|Yunnan|EPI_ISL_1098866|2018-08
+|        |          +------| (100)
+|        |          |      |         +--Wuhan-Hu-1|SARS-CoV-2|Wuhan|MN908947|2019-12
+|        |          |      |      +--| (100)
+|        |          |      |      |  |  +--RaTG13|Bat-R_affinis|Yunnan|EPI_ISL_402131|2013-07-24
+|        |          |      |      |  +--| (96)
+|        |          |      |      |     |     +**RShSTT182|Bat-R_shameli|Steung_Treng-Cambodia|EPI_ISL_852604|2010-12-06
+|        |          |      |      |     |  +--| (100)
+|        |          |      |      |     |  |  +**RShSTT200|Bat-R_shameli|Steung_Treng-Cambodia|EPI_ISL_852605|2010-12-06
+|        |          |      |      |     +--| (100)
+|        |          |      |      |        |  +--RacCS203|Bat-R_acuminatus|Thailand|MW251308.1|2020-06-19
+|        |          |      |      |        +--| (100)
+|        |          |      |      |           |  +--Pangolin-CoV|pangolin|Guandong|EPI_ISL_410721|2020-02-16
+|        |          |      |      |           +--| (100)
+|        |          |      |      |              |                  +--P4L|pangolin|Guangxi|EPI_ISL_410538|2017
+|        |          |      |      |              |               +**| (90)
+|        |          |      |      |              |               |  +--P5E|pangolin|Guangxi|EPI_ISL_410541|2017
+|        |          |      |      |              |            +--| (91)
+|        |          |      |      |              |            |  |  +--P5L|pangolin|Guangxi||EPI_ISL_410540|2017
+|        |          |      |      |              |            |  +--| (90)
+|        |          |      |      |              |            |     +--P1E|pangolin|Guangxi|EPI_ISL_410539|2017
+|        |          |      |      |              |  +---------| (100)
+|        |          |      |      |              |  |         +--P2V|pangolin|Guangxi|EPI_ISL_410542|2017
+|        |          |      |      |              +--| (100)
+|        |          |      |      |                 |                         +--RsYN04
+|        |          |      |      |                 |                      +**| (72)
+|        |          |      |      |                 |                      |  +--RmYN08
+|        |          |      |      |                 +----------------------| (100)
+|        |          |      |      |                                        +--RmYN05
+|        |          |      |   +--| (100)
+|        |          |      |   |  +--RpYN06
+|        |          |      +---| (100)
+|        |          |          +--RmYN02|EPI_ISL_412977|China|Yunnan|Xishuangbanna|2019-06-25
+|        |    +-----| (100)
+|        |    |     +------------------Rc-o319|Bat-R_cornutus|Iwate-Japan|LC556375.1|2013
+|        +----| (100)
+|             +---------------------BtKY72|Bat-R_spp|Kenya|KY352407|2007-10
+|
+|     +--JL2012|Bat-R_ferrumequinum|Jilin|KJ473811|2012-10
+|  +--| (100)
+|  |  +--JTMC15|Bat-R_ferrumequinum|Jilin|KU182964|2013-10
++--| (100)
+   |     +--HeB2013|Bat-R_ferrumequinum|Hebei|KJ473812|2013-04
+   |  +--| (91)
+   |  |  +--SX2013|Bat-R_ferrumequinum|Shanxi|KJ473813|2013-11
+   +--| (100)
+      +--Jiyuan-84|Bat-R_ferrumequinum|Henan-Jiyuan|KY770860|2012
+
+Tree in newick format:
+
+(RpShaanxi2011|Bat-R_pusillus|Shaanxi|JX993987|2011-09:0.0359986685,((HuB2013|Bat-Bat-R_sinicus|Hubei|KJ473814|2013-04:0.0420601446,(279_2005|Bat-R_macrotis|Hubei|DQ648857|2004-11:0.0006129133,Rm1|Bat-R_macrotis|Hubei|DQ412043|2004-11:0.0018138536)100:0.0548301829)100:0.0144326209,((Longquan_140|Bat-R_monoceros|China|KF294457|2012:0.0216000280,((((HKU3-1|Bat-R_sinicus|Hong_Kong|DQ022305|2005-02-17:0.0000010000,HKU3-3|Bat-R_sinicus|Hong_Kong|DQ084200|2005-03-17:0.0000010000)98:0.0002048667,(((HKU3-2|Bat-R_sinicus|Hong_Kong|DQ084199|2005-02-24:0.0000010000,(HKU3-4|Bat-R_sinicus|Hong_Kong|GQ153539|2005-07-20:0.0002341762,(((HKU3-10|Bat-R_sinicus|Hong_Kong|GQ153545|2006-10-28:0.0000010000,HKU3-9|Bat-R_sinicus|Hong_Kong|GQ153544|2006-10-28:0.0000010000)100:0.0001564133,HKU3-11|Bat-R_sinicus|Hong_King|GQ153546|2007-03-07:0.0003128367)97:0.0001562159,HKU3-13|Bat-R_sinicus|Hong_Kong|GQ153548|2007-11-15:0.0007032768)93:0.0000785947)18:0.0000010000)18:0.0000010000,HKU3-5|Bat-R_sinicus|Hong_Kong|GQ153540|2005-09-20:0.0000026202)34:0.0000021473,HKU3-6|Bat-R_sinicus|Hong_Kong|GQ153541|2005-12-16:0.0003902844)94:0.0001068691)100:0.0047434206,HKU3-12|Bat-R_sinicus|Hong_Kong|GQ153547|2007-05-15:0.0071146594)100:0.0038791226,(HKU3-7|Bat-R_sinicus|Guangdong|GQ153542|2006-02-15:0.0000751533,HKU3-8|Bat-R_sinicus|Guangdong|GQ153543|2006-02-15:0.0002381142)100:0.0067814262)100:0.0137613137)100:0.0604801027,((((((((GX2013|Bat-R_sinicus|Guangxi|KJ473815|2012-11:0.0205962607,Rp3|Bat-R_pearsoni|Guangxi-Nanning|DQ071615|2004-12:0.0141050776)100:0.0093928693,(Anlong-103|Bat-R_sinicus|Guizhou-Anlong|KY770858|2013:0.0005462755,Anlong-112|Bat-R_sinicus|Guizhou-Anlong|KY770859|2013:0.0000010000)100:0.0064351516)88:0.0041052481,Rs672|Bat-R_sinicus|Guizhou|FJ588686|2006-09:0.0108501340)71:0.0025433548,(((Rf4092|Bat-R_ferrumequinum|Yunnan-Kunming|KY417145|2012-09-18:0.0092178138,(((Rs4231|Bat-R_sinicus|Yunnan-Kunming|KY417146|2013-04-17:0.0052869357,(((WIV16|Bat-R_sinicus|Yunnan-Kunming|KT444582|2013-07-21:0.0004685518,Rs4874|Bat-R_sinicus|Yunnan-Kunming|KY417150|2013-07-21:0.0005498251)100:0.0022354767,Rs4081|Bat-R_sinicus|Yunnan-Kunming|KY417143|2012-09-18:0.0017920625)100:0.0030741268,Rs4247|Bat-R_sinicus|Yunnan-Kunming|KY417148|2013-04-17:0.0029850353)98:0.0030973948)67:0.0022223717,Rs4237|Bat-R_sinicus|Yunnan-Kunming|KY417147|2013-04-17:0.0065775930)78:0.0026486951,((Rs3367|Bat-R_sinicus|Yunnan-Kunming|KC881006|2012-03-19:0.0001558502,WIV1|Bat-R_sinicus|Yunnan-Kunming|KF367457|2012-09:0.0003932359)100:0.0036852960,Rs4255|Bat-R_sinicus|Yunnan-Kunming|KY417149|2013-04-17:0.0044567538)74:0.0021559969)86:0.0021159201)72:0.0008732279,(((((YN2018B|Bat-R_affinis|Yunnan|MK211376|2016-09:0.0011519431,YN2018D|Bat-R_affinis|Yunnan|MK211378|2016-09:0.0055974814)96:0.0011206366,As6526|Bat-Aselliscus_stoliczkanus|Yunnan-Kunming|KY417142|2014-05-12:0.0036795762)97:0.0022054722,YN2018C|Bat-R_affinis|Yunnan-Kunming|MK211377|2016-09:0.0030131029)96:0.0019184406,Rs9401|Bat-R_sinicus|Yunnan-Kunming|KY417152|2015-10-16:0.0035177173)72:0.0008282694,Rs7327|Bat-R_sinicus|Yunnan--Kunming|KY417151|2014-10-24:0.0068125033)87:0.0030973264)76:0.0014306034,((YN2013|Bat-R_sinicus|Yunnan|KJ473816|2010-12:0.0043199973,(RsSHC014|Bat-R_sinicus|Yunnan-Kunming|KC881005|2011-04-17:0.0031577444,Rs4084|Bat-R_sinicus|Yunnan-Kunming|KY417144|2012-09-18:0.0029494370)100:0.0030064806)100:0.0019390381,YN2018A|Bat-R_affinis|Yunnan|MK211375|2016-09:0.0087659054)87:0.0030621489)88:0.0019908692)80:0.0059070743,(HSZ-Cc|SARS-CoV-1|Guangzhou|AY394995|2002:0.0143486010,(YNLF_31C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886808|2013-05-23:0.0000799609,YNLF_34C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886809|2013-05-23:0.0008593706)100:0.0197404874)50:0.0043111345)83:0.0143433096,Yunnan2011|Bat-Chaerephon_plicata|Yunnan|JX993988|2011-11:0.0446159068)99:0.0115211663,(F46|Bat-R_pusillus|Yunnan|KU973692|2012:0.0193201728,LYRa11|Bat-R_affinis|Yunnan-Baoshan|KF569996|2011:0.0314788797)100:0.0218391380)100:0.0204576896,(((PrC31|Bat-R_spp|Yunnan|EPI_ISL_1098866|2018-08:0.0042522693,(((Wuhan-Hu-1|SARS-CoV-2|Wuhan|MN908947|2019-12:0.0142504246,(RaTG13|Bat-R_affinis|Yunnan|EPI_ISL_402131|2013-07-24:0.0217130937,((RShSTT182|Bat-R_shameli|Steung_Treng-Cambodia|EPI_ISL_852604|2010-12-06:0.0000010000,RShSTT200|Bat-R_shameli|Steung_Treng-Cambodia|EPI_ISL_852605|2010-12-06:0.0000010000)100:0.0344183043,(RacCS203|Bat-R_acuminatus|Thailand|MW251308.1|2020-06-19:0.0322261398,(Pangolin-CoV|pangolin|Guandong|EPI_ISL_410721|2020-02-16:0.0581032745,((((P4L|pangolin|Guangxi|EPI_ISL_410538|2017:0.0002381283,P5E|pangolin|Guangxi|EPI_ISL_410541|2017:0.0002380368)90:0.0000020193,(P5L|pangolin|Guangxi||EPI_ISL_410540|2017:0.0001594106,P1E|pangolin|Guangxi|EPI_ISL_410539|2017:0.0001594919)90:0.0001579912)91:0.0002945828,P2V|pangolin|Guangxi|EPI_ISL_410542|2017:0.0004998380)100:0.1768174289,((RsYN04:0.0000789243,RmYN08:0.0001578905)72:0.0000012575,RmYN05:0.0002345924)100:0.3930919141)100:0.0611243217)100:0.0413449462)100:0.0154170207)100:0.0077085526)96:0.0041935398)100:0.0051894296,RpYN06:0.0103041093)100:0.0034587808,RmYN02|EPI_ISL_412977|China|Yunnan|Xishuangbanna|2019-06-25:0.0088688294)100:0.0754287132)100:0.1168545020,Rc-o319|Bat-R_cornutus|Iwate-Japan|LC556375.1|2013:0.3165440601)100:0.1025945406,BtKY72|Bat-R_spp|Kenya|KY352407|2007-10:0.3701510152)100:0.0953765654)100:0.0346619444)84:0.0089927273)100:0.0303420876,((JL2012|Bat-R_ferrumequinum|Jilin|KJ473811|2012-10:0.0007334971,JTMC15|Bat-R_ferrumequinum|Jilin|KU182964|2013-10:0.0013850455)100:0.0167344044,((HeB2013|Bat-R_ferrumequinum|Hebei|KJ473812|2013-04:0.0007026921,SX2013|Bat-R_ferrumequinum|Shanxi|KJ473813|2013-11:0.0032991861)91:0.0032717247,Jiyuan-84|Bat-R_ferrumequinum|Henan-Jiyuan|KY770860|2012:0.0057803332)100:0.0067483484)100:0.0373772615);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -113572.496658
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--RpShaanxi2011|Bat-R_pusillus|Shaanxi|JX993987|2011-09
+|
+|     +--HuB2013|Bat-Bat-R_sinicus|Hubei|KJ473814|2013-04
+|  +--| (100)
+|  |  |  +--279_2005|Bat-R_macrotis|Hubei|DQ648857|2004-11
+|  |  +--| (100)
+|  |     +--Rm1|Bat-R_macrotis|Hubei|DQ412043|2004-11
++--| (100)
+|  |     +--Longquan_140|Bat-R_monoceros|China|KF294457|2012
+|  |  +--| (100)
+|  |  |  |           +--HKU3-1|Bat-R_sinicus|Hong_Kong|DQ022305|2005-02-17
+|  |  |  |        +--| (98)
+|  |  |  |        |  +--HKU3-3|Bat-R_sinicus|Hong_Kong|DQ084200|2005-03-17
+|  |  |  |     +--| (100)
+|  |  |  |     |  |        +--HKU3-2|Bat-R_sinicus|Hong_Kong|DQ084199|2005-02-24
+|  |  |  |     |  |     +--| (18)
+|  |  |  |     |  |     |  |  +--HKU3-4|Bat-R_sinicus|Hong_Kong|GQ153539|2005-07-20
+|  |  |  |     |  |     |  +--| (18)
+|  |  |  |     |  |     |     |        +--HKU3-10|Bat-R_sinicus|Hong_Kong|GQ153545|2006-10-28
+|  |  |  |     |  |     |     |     +--| (100)
+|  |  |  |     |  |     |     |     |  +--HKU3-9|Bat-R_sinicus|Hong_Kong|GQ153544|2006-10-28
+|  |  |  |     |  |     |     |  +--| (97)
+|  |  |  |     |  |     |     |  |  +--HKU3-11|Bat-R_sinicus|Hong_King|GQ153546|2007-03-07
+|  |  |  |     |  |     |     +--| (93)
+|  |  |  |     |  |     |        +--HKU3-13|Bat-R_sinicus|Hong_Kong|GQ153548|2007-11-15
+|  |  |  |     |  |  +--| (34)
+|  |  |  |     |  |  |  +--HKU3-5|Bat-R_sinicus|Hong_Kong|GQ153540|2005-09-20
+|  |  |  |     |  +--| (94)
+|  |  |  |     |     +--HKU3-6|Bat-R_sinicus|Hong_Kong|GQ153541|2005-12-16
+|  |  |  |  +--| (100)
+|  |  |  |  |  +--HKU3-12|Bat-R_sinicus|Hong_Kong|GQ153547|2007-05-15
+|  |  |  +--| (100)
+|  |  |     |  +--HKU3-7|Bat-R_sinicus|Guangdong|GQ153542|2006-02-15
+|  |  |     +--| (100)
+|  |  |        +--HKU3-8|Bat-R_sinicus|Guangdong|GQ153543|2006-02-15
+|  +--| (84)
+|     |                       +--GX2013|Bat-R_sinicus|Guangxi|KJ473815|2012-11
+|     |                    +--| (100)
+|     |                    |  +--Rp3|Bat-R_pearsoni|Guangxi-Nanning|DQ071615|2004-12
+|     |                 +--| (88)
+|     |                 |  |  +--Anlong-103|Bat-R_sinicus|Guizhou-Anlong|KY770858|2013
+|     |                 |  +--| (100)
+|     |                 |     +--Anlong-112|Bat-R_sinicus|Guizhou-Anlong|KY770859|2013
+|     |              +--| (71)
+|     |              |  +--Rs672|Bat-R_sinicus|Guizhou|FJ588686|2006-09
+|     |           +--| (80)
+|     |           |  |        +--Rf4092|Bat-R_ferrumequinum|Yunnan-Kunming|KY417145|2012-09-18
+|     |           |  |     +--| (72)
+|     |           |  |     |  |        +--Rs4231|Bat-R_sinicus|Yunnan-Kunming|KY417146|2013-04-17
+|     |           |  |     |  |     +--| (67)
+|     |           |  |     |  |     |  |        +--WIV16|Bat-R_sinicus|Yunnan-Kunming|KT444582|2013-07-21
+|     |           |  |     |  |     |  |     +--| (100)
+|     |           |  |     |  |     |  |     |  +--Rs4874|Bat-R_sinicus|Yunnan-Kunming|KY417150|2013-07-21
+|     |           |  |     |  |     |  |  +--| (100)
+|     |           |  |     |  |     |  |  |  +--Rs4081|Bat-R_sinicus|Yunnan-Kunming|KY417143|2012-09-18
+|     |           |  |     |  |     |  +--| (98)
+|     |           |  |     |  |     |     +--Rs4247|Bat-R_sinicus|Yunnan-Kunming|KY417148|2013-04-17
+|     |           |  |     |  |  +--| (78)
+|     |           |  |     |  |  |  +--Rs4237|Bat-R_sinicus|Yunnan-Kunming|KY417147|2013-04-17
+|     |           |  |     |  +--| (86)
+|     |           |  |     |     |     +--Rs3367|Bat-R_sinicus|Yunnan-Kunming|KC881006|2012-03-19
+|     |           |  |     |     |  +--| (100)
+|     |           |  |     |     |  |  +--WIV1|Bat-R_sinicus|Yunnan-Kunming|KF367457|2012-09
+|     |           |  |     |     +--| (74)
+|     |           |  |     |        +--Rs4255|Bat-R_sinicus|Yunnan-Kunming|KY417149|2013-04-17
+|     |           |  |  +--| (76)
+|     |           |  |  |  |              +--YN2018B|Bat-R_affinis|Yunnan|MK211376|2016-09
+|     |           |  |  |  |           +--| (96)
+|     |           |  |  |  |           |  +--YN2018D|Bat-R_affinis|Yunnan|MK211378|2016-09
+|     |           |  |  |  |        +--| (97)
+|     |           |  |  |  |        |  +--As6526|Bat-Aselliscus_stoliczkanus|Yunnan-Kunming|KY417142|2014-05-12
+|     |           |  |  |  |     +--| (96)
+|     |           |  |  |  |     |  +--YN2018C|Bat-R_affinis|Yunnan-Kunming|MK211377|2016-09
+|     |           |  |  |  |  +--| (72)
+|     |           |  |  |  |  |  +--Rs9401|Bat-R_sinicus|Yunnan-Kunming|KY417152|2015-10-16
+|     |           |  |  |  +--| (87)
+|     |           |  |  |     +--Rs7327|Bat-R_sinicus|Yunnan--Kunming|KY417151|2014-10-24
+|     |           |  +--| (88)
+|     |           |     |     +--YN2013|Bat-R_sinicus|Yunnan|KJ473816|2010-12
+|     |           |     |  +--| (100)
+|     |           |     |  |  |  +--RsSHC014|Bat-R_sinicus|Yunnan-Kunming|KC881005|2011-04-17
+|     |           |     |  |  +--| (100)
+|     |           |     |  |     +--Rs4084|Bat-R_sinicus|Yunnan-Kunming|KY417144|2012-09-18
+|     |           |     +--| (87)
+|     |           |        +--YN2018A|Bat-R_affinis|Yunnan|MK211375|2016-09
+|     |        +--| (83)
+|     |        |  |  +--HSZ-Cc|SARS-CoV-1|Guangzhou|AY394995|2002
+|     |        |  +--| (50)
+|     |        |     |  +--YNLF_31C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886808|2013-05-23
+|     |        |     +--| (100)
+|     |        |        +--YNLF_34C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886809|2013-05-23
+|     |     +--| (99)
+|     |     |  +--Yunnan2011|Bat-Chaerephon_plicata|Yunnan|JX993988|2011-11
+|     |  +--| (100)
+|     |  |  |  +--F46|Bat-R_pusillus|Yunnan|KU973692|2012
+|     |  |  +--| (100)
+|     |  |     +--LYRa11|Bat-R_affinis|Yunnan-Baoshan|KF569996|2011
+|     +--| (100)
+|        |                 +--PrC31|Bat-R_spp|Yunnan|EPI_ISL_1098866|2018-08
+|        |          +------| (100)
+|        |          |      |         +--Wuhan-Hu-1|SARS-CoV-2|Wuhan|MN908947|2019-12
+|        |          |      |      +--| (100)
+|        |          |      |      |  |  +--RaTG13|Bat-R_affinis|Yunnan|EPI_ISL_402131|2013-07-24
+|        |          |      |      |  +--| (96)
+|        |          |      |      |     |     +--RShSTT182|Bat-R_shameli|Steung_Treng-Cambodia|EPI_ISL_852604|2010-12-06
+|        |          |      |      |     |  +--| (100)
+|        |          |      |      |     |  |  +--RShSTT200|Bat-R_shameli|Steung_Treng-Cambodia|EPI_ISL_852605|2010-12-06
+|        |          |      |      |     +--| (100)
+|        |          |      |      |        |  +--RacCS203|Bat-R_acuminatus|Thailand|MW251308.1|2020-06-19
+|        |          |      |      |        +--| (100)
+|        |          |      |      |           |  +--Pangolin-CoV|pangolin|Guandong|EPI_ISL_410721|2020-02-16
+|        |          |      |      |           +--| (100)
+|        |          |      |      |              |                  +--P4L|pangolin|Guangxi|EPI_ISL_410538|2017
+|        |          |      |      |              |               +--| (90)
+|        |          |      |      |              |               |  +--P5E|pangolin|Guangxi|EPI_ISL_410541|2017
+|        |          |      |      |              |            +--| (91)
+|        |          |      |      |              |            |  |  +--P5L|pangolin|Guangxi||EPI_ISL_410540|2017
+|        |          |      |      |              |            |  +--| (90)
+|        |          |      |      |              |            |     +--P1E|pangolin|Guangxi|EPI_ISL_410539|2017
+|        |          |      |      |              |  +---------| (100)
+|        |          |      |      |              |  |         +--P2V|pangolin|Guangxi|EPI_ISL_410542|2017
+|        |          |      |      |              +--| (100)
+|        |          |      |      |                 |                         +--RsYN04
+|        |          |      |      |                 |                      +--| (72)
+|        |          |      |      |                 |                      |  +--RmYN08
+|        |          |      |      |                 +----------------------| (100)
+|        |          |      |      |                                        +--RmYN05
+|        |          |      |   +--| (100)
+|        |          |      |   |  +--RpYN06
+|        |          |      +---| (100)
+|        |          |          +--RmYN02|EPI_ISL_412977|China|Yunnan|Xishuangbanna|2019-06-25
+|        |    +-----| (100)
+|        |    |     +------------------Rc-o319|Bat-R_cornutus|Iwate-Japan|LC556375.1|2013
+|        +----| (100)
+|             +---------------------BtKY72|Bat-R_spp|Kenya|KY352407|2007-10
+|
+|     +--JL2012|Bat-R_ferrumequinum|Jilin|KJ473811|2012-10
+|  +--| (100)
+|  |  +--JTMC15|Bat-R_ferrumequinum|Jilin|KU182964|2013-10
++--| (100)
+   |     +--HeB2013|Bat-R_ferrumequinum|Hebei|KJ473812|2013-04
+   |  +--| (91)
+   |  |  +--SX2013|Bat-R_ferrumequinum|Shanxi|KJ473813|2013-11
+   +--| (100)
+      +--Jiyuan-84|Bat-R_ferrumequinum|Henan-Jiyuan|KY770860|2012
+
+
+Consensus tree in newick format: 
+
+(RpShaanxi2011|Bat-R_pusillus|Shaanxi|JX993987|2011-09:0.0359961734,((HuB2013|Bat-Bat-R_sinicus|Hubei|KJ473814|2013-04:0.0420580063,(279_2005|Bat-R_macrotis|Hubei|DQ648857|2004-11:0.0006117058,Rm1|Bat-R_macrotis|Hubei|DQ412043|2004-11:0.0018133368)100:0.0548259210)100:0.0144306894,((Longquan_140|Bat-R_monoceros|China|KF294457|2012:0.0215990730,((((HKU3-1|Bat-R_sinicus|Hong_Kong|DQ022305|2005-02-17:0.0000021811,HKU3-3|Bat-R_sinicus|Hong_Kong|DQ084200|2005-03-17:0.0000021811)98:0.0002052282,(((HKU3-2|Bat-R_sinicus|Hong_Kong|DQ084199|2005-02-24:0.0000021811,(HKU3-4|Bat-R_sinicus|Hong_Kong|GQ153539|2005-07-20:0.0002339683,(((HKU3-10|Bat-R_sinicus|Hong_Kong|GQ153545|2006-10-28:0.0000021811,HKU3-9|Bat-R_sinicus|Hong_Kong|GQ153544|2006-10-28:0.0000021811)100:0.0001560028,HKU3-11|Bat-R_sinicus|Hong_King|GQ153546|2007-03-07:0.0003125578)97:0.0001558072,HKU3-13|Bat-R_sinicus|Hong_Kong|GQ153548|2007-11-15:0.0007025613)93:0.0000785876)18:0.0000021811)18:0.0000021811,HKU3-5|Bat-R_sinicus|Hong_Kong|GQ153540|2005-09-20:0.0000021811)34:0.0000021811,HKU3-6|Bat-R_sinicus|Hong_Kong|GQ153541|2005-12-16:0.0003899380)94:0.0001076592)100:0.0047423147,HKU3-12|Bat-R_sinicus|Hong_Kong|GQ153547|2007-05-15:0.0071130595)100:0.0038782258,(HKU3-7|Bat-R_sinicus|Guangdong|GQ153542|2006-02-15:0.0000744176,HKU3-8|Bat-R_sinicus|Guangdong|GQ153543|2006-02-15:0.0002379468)100:0.0067802769)100:0.0137596918)100:0.0604720517,((((((((GX2013|Bat-R_sinicus|Guangxi|KJ473815|2012-11:0.0205945442,Rp3|Bat-R_pearsoni|Guangxi-Nanning|DQ071615|2004-12:0.0141038675)100:0.0093926413,(Anlong-103|Bat-R_sinicus|Guizhou-Anlong|KY770858|2013:0.0005463988,Anlong-112|Bat-R_sinicus|Guizhou-Anlong|KY770859|2013:0.0000021811)100:0.0064339653)88:0.0041047099,Rs672|Bat-R_sinicus|Guizhou|FJ588686|2006-09:0.0108495822)71:0.0025421190,(((Rf4092|Bat-R_ferrumequinum|Yunnan-Kunming|KY417145|2012-09-18:0.0092170654,(((Rs4231|Bat-R_sinicus|Yunnan-Kunming|KY417146|2013-04-17:0.0052862020,(((WIV16|Bat-R_sinicus|Yunnan-Kunming|KT444582|2013-07-21:0.0004677410,Rs4874|Bat-R_sinicus|Yunnan-Kunming|KY417150|2013-07-21:0.0005498887)100:0.0022350616,Rs4081|Bat-R_sinicus|Yunnan-Kunming|KY417143|2012-09-18:0.0017906139)100:0.0030731613,Rs4247|Bat-R_sinicus|Yunnan-Kunming|KY417148|2013-04-17:0.0029844788)98:0.0030965071)67:0.0022208556,Rs4237|Bat-R_sinicus|Yunnan-Kunming|KY417147|2013-04-17:0.0065764823)78:0.0026484956,((Rs3367|Bat-R_sinicus|Yunnan-Kunming|KC881006|2012-03-19:0.0001558216,WIV1|Bat-R_sinicus|Yunnan-Kunming|KF367457|2012-09:0.0003925564)100:0.0036839059,Rs4255|Bat-R_sinicus|Yunnan-Kunming|KY417149|2013-04-17:0.0044554495)74:0.0021556180)86:0.0021143314)72:0.0008722350,(((((YN2018B|Bat-R_affinis|Yunnan|MK211376|2016-09:0.0011513711,YN2018D|Bat-R_affinis|Yunnan|MK211378|2016-09:0.0055965461)96:0.0011201664,As6526|Bat-Aselliscus_stoliczkanus|Yunnan-Kunming|KY417142|2014-05-12:0.0036782345)97:0.0022052564,YN2018C|Bat-R_affinis|Yunnan-Kunming|MK211377|2016-09:0.0030122183)96:0.0019173915,Rs9401|Bat-R_sinicus|Yunnan-Kunming|KY417152|2015-10-16:0.0035165210)72:0.0008268634,Rs7327|Bat-R_sinicus|Yunnan--Kunming|KY417151|2014-10-24:0.0068113637)87:0.0030965654)76:0.0014299623,((YN2013|Bat-R_sinicus|Yunnan|KJ473816|2010-12:0.0043185172,(RsSHC014|Bat-R_sinicus|Yunnan-Kunming|KC881005|2011-04-17:0.0031568202,Rs4084|Bat-R_sinicus|Yunnan-Kunming|KY417144|2012-09-18:0.0029485776)100:0.0030054431)100:0.0019388598,YN2018A|Bat-R_affinis|Yunnan|MK211375|2016-09:0.0087651944)87:0.0030612908)88:0.0019908018)80:0.0059059278,(HSZ-Cc|SARS-CoV-1|Guangzhou|AY394995|2002:0.0143474538,(YNLF_31C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886808|2013-05-23:0.0000796984,YNLF_34C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886809|2013-05-23:0.0008592442)100:0.0197387286)50:0.0043110123)83:0.0143434705,Yunnan2011|Bat-Chaerephon_plicata|Yunnan|JX993988|2011-11:0.0446127871)99:0.0115198058,(F46|Bat-R_pusillus|Yunnan|KU973692|2012:0.0193203102,LYRa11|Bat-R_affinis|Yunnan-Baoshan|KF569996|2011:0.0314760048)100:0.0218377519)100:0.0204535959,(((PrC31|Bat-R_spp|Yunnan|EPI_ISL_1098866|2018-08:0.0042529651,(((Wuhan-Hu-1|SARS-CoV-2|Wuhan|MN908947|2019-12:0.0142488619,(RaTG13|Bat-R_affinis|Yunnan|EPI_ISL_402131|2013-07-24:0.0217103330,((RShSTT182|Bat-R_shameli|Steung_Treng-Cambodia|EPI_ISL_852604|2010-12-06:0.0000021811,RShSTT200|Bat-R_shameli|Steung_Treng-Cambodia|EPI_ISL_852605|2010-12-06:0.0000021811)100:0.0344153343,(RacCS203|Bat-R_acuminatus|Thailand|MW251308.1|2020-06-19:0.0322227391,(Pangolin-CoV|pangolin|Guandong|EPI_ISL_410721|2020-02-16:0.0581060719,((((P4L|pangolin|Guangxi|EPI_ISL_410538|2017:0.0002380394,P5E|pangolin|Guangxi|EPI_ISL_410541|2017:0.0002379494)90:0.0000021892,(P5L|pangolin|Guangxi||EPI_ISL_410540|2017:0.0001583645,P1E|pangolin|Guangxi|EPI_ISL_410539|2017:0.0001596842)90:0.0001594233)91:0.0002945976,P2V|pangolin|Guangxi|EPI_ISL_410542|2017:0.0004995926)100:0.1767801542,((RsYN04:0.0000789002,RmYN08:0.0001578129)72:0.0000262154,RmYN05:0.0002059899)100:0.3930255862)100:0.0611231256)100:0.0413313515)100:0.0154140164)100:0.0077069435)96:0.0041921629)100:0.0051884882,RpYN06:0.0103021102)100:0.0034592556,RmYN02|EPI_ISL_412977|China|Yunnan|Xishuangbanna|2019-06-25:0.0088660967)100:0.0754205779)100:0.1168510384,Rc-o319|Bat-R_cornutus|Iwate-Japan|LC556375.1|2013:0.3164936756)100:0.1025831336,BtKY72|Bat-R_spp|Kenya|KY352407|2007-10:0.3701122577)100:0.0953658408)100:0.0346597810)84:0.0089972687)100:0.0303389084,((JL2012|Bat-R_ferrumequinum|Jilin|KJ473811|2012-10:0.0007327334,JTMC15|Bat-R_ferrumequinum|Jilin|KU182964|2013-10:0.0013847501)100:0.0167331779,((HeB2013|Bat-R_ferrumequinum|Hebei|KJ473812|2013-04:0.0007016481,SX2013|Bat-R_ferrumequinum|Shanxi|KJ473813|2013-11:0.0032982833)91:0.0032704620,Jiyuan-84|Bat-R_ferrumequinum|Henan-Jiyuan|KY770860|2012:0.0057792491)100:0.0067479581)100:0.0373751770);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/NRR1_pruned.treefile -m "GTR{1.56151,7.26176,2.12284,0.627025,14.6551}+F{0.281819,0.190508,0.207051,0.320623}+G4{0.267795}" --length 13060
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/alignments/78_taxa/NRR1_pruned.aln.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/alignments/78_taxa/NRR1_pruned.aln.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Sep 23 11:41:44 2026
+Total CPU time used: 1164.6033 seconds (0h:19m:24s)
+Total wall-clock time used: 154.083623 seconds (0h:2m:34s)
+

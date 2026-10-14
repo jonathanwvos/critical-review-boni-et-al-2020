@@ -1,0 +1,163 @@
+IQ-TREE multicore version 2.2.6 COVID-edition for Linux 64-bit built Dec  8 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Rubicon (AVX512, FMA3, 30 GB RAM)
+Command: /home/jono/miniconda3/envs/phylo/bin/iqtree2 -s /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/alignments/78_taxa/NRA3_Block3_Spike.aln.fasta -m GTR+G4 -z /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/nra3_candidate_blocks.tre -zb 10000 -au -T 8 --prefix /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/au_test_Block3_Spike --redo
+Seed:    624333 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Sep 24 20:59:11 2026
+Kernel:  AVX+FMA - 8 threads (16 CPU cores detected)
+
+Reading alignment file /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/alignments/78_taxa/NRA3_Block3_Spike.aln.fasta ... Fasta format detected
+Reading fasta file: done in 0.00187446 secs using 98.16% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0020404 secs using 771.5% CPU
+WARNING: 145 sites contain only gaps or ambiguous characters.
+Alignment has 78 sequences with 3896 columns, 989 distinct patterns
+887 parsimony-informative, 531 singleton sites, 2478 constant sites
+                                                                         Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.5608e-05 secs using 89.82% CPU
+   1  RpShaanxi2011|Bat-R_pusillus|Shaanxi|JX993987|2011-09                     58.39%    passed     18.84%
+   2  HuB2013|Bat-Bat-R_sinicus|Hubei|KJ473814|2013-04                          44.25%    passed     12.31%
+   3  279_2005|Bat-R_macrotis|Hubei|DQ648857|2004-11                            35.75%    failed      0.30%
+   4  Rm1|Bat-R_macrotis|Hubei|DQ412043|2004-11                                 35.75%    failed      0.34%
+   5  Longquan_140|Bat-R_monoceros|China|KF294457|2012                         100.00%    passed      -nan%
+   6  HKU3-1|Bat-R_sinicus|Hong_Kong|DQ022305|2005-02-17                       100.00%    passed      -nan%
+   7  HKU3-3|Bat-R_sinicus|Hong_Kong|DQ084200|2005-03-17                       100.00%    passed      -nan%
+   8  HKU3-2|Bat-R_sinicus|Hong_Kong|DQ084199|2005-02-24                       100.00%    passed      -nan%
+   9  HKU3-4|Bat-R_sinicus|Hong_Kong|GQ153539|2005-07-20                       100.00%    passed      -nan%
+  10  HKU3-6|Bat-R_sinicus|Hong_Kong|GQ153541|2005-12-16                       100.00%    passed      -nan%
+  11  HKU3-5|Bat-R_sinicus|Hong_Kong|GQ153540|2005-09-20                       100.00%    passed      -nan%
+  12  HKU3-10|Bat-R_sinicus|Hong_Kong|GQ153545|2006-10-28                      100.00%    passed      -nan%
+  13  HKU3-9|Bat-R_sinicus|Hong_Kong|GQ153544|2006-10-28                       100.00%    passed      -nan%
+  14  HKU3-11|Bat-R_sinicus|Hong_King|GQ153546|2007-03-07                      100.00%    passed      -nan%
+  15  HKU3-13|Bat-R_sinicus|Hong_Kong|GQ153548|2007-11-15                      100.00%    passed      -nan%
+  16  HKU3-12|Bat-R_sinicus|Hong_Kong|GQ153547|2007-05-15                      100.00%    passed      -nan%
+  17  HKU3-7|Bat-R_sinicus|Guangdong|GQ153542|2006-02-15                       100.00%    passed      -nan%
+  18  HKU3-8|Bat-R_sinicus|Guangdong|GQ153543|2006-02-15                       100.00%    passed      -nan%
+  19  GX2013|Bat-R_sinicus|Guangxi|KJ473815|2012-11                            100.00%    passed      -nan%
+  20  Rp3|Bat-R_pearsoni|Guangxi-Nanning|DQ071615|2004-12                      100.00%    passed      -nan%
+  21  Rf4092|Bat-R_ferrumequinum|Yunnan-Kunming|KY417145|2012-09-18            100.00%    passed      -nan%
+  22  YN2013|Bat-R_sinicus|Yunnan|KJ473816|2010-12                             100.00%    passed      -nan%
+  23  Anlong-103|Bat-R_sinicus|Guizhou-Anlong|KY770858|2013                    100.00%    passed      -nan%
+  24  Anlong-112|Bat-R_sinicus|Guizhou-Anlong|KY770859|2013                    100.00%    passed      -nan%
+  25  Rs4231|Bat-R_sinicus|Yunnan-Kunming|KY417146|2013-04-17                  100.00%    passed      -nan%
+  26  WIV16|Bat-R_sinicus|Yunnan-Kunming|KT444582|2013-07-21                   100.00%    passed      -nan%
+  27  Rs4874|Bat-R_sinicus|Yunnan-Kunming|KY417150|2013-07-21                  100.00%    passed      -nan%
+  28  YN2018B|Bat-R_affinis|Yunnan|MK211376|2016-09                            100.00%    passed      -nan%
+  29  Rs7327|Bat-R_sinicus|Yunnan--Kunming|KY417151|2014-10-24                 100.00%    passed      -nan%
+  30  Rs9401|Bat-R_sinicus|Yunnan-Kunming|KY417152|2015-10-16                  100.00%    passed      -nan%
+  31  RsSHC014|Bat-R_sinicus|Yunnan-Kunming|KC881005|2011-04-17                100.00%    passed      -nan%
+  32  Rs3367|Bat-R_sinicus|Yunnan-Kunming|KC881006|2012-03-19                  100.00%    passed      -nan%
+  33  WIV1|Bat-R_sinicus|Yunnan-Kunming|KF367457|2012-09                       100.00%    passed      -nan%
+  34  Rs4084|Bat-R_sinicus|Yunnan-Kunming|KY417144|2012-09-18                  100.00%    passed      -nan%
+  35  YN2018C|Bat-R_affinis|Yunnan-Kunming|MK211377|2016-09                    100.00%    passed      -nan%
+  36  As6526|Bat-Aselliscus_stoliczkanus|Yunnan-Kunming|KY417142|2014-05-12    100.00%    passed      -nan%
+  37  Rs4237|Bat-R_sinicus|Yunnan-Kunming|KY417147|2013-04-17                  100.00%    passed      -nan%
+  38  Rs4247|Bat-R_sinicus|Yunnan-Kunming|KY417148|2013-04-17                  100.00%    passed      -nan%
+  39  YN2018A|Bat-R_affinis|Yunnan|MK211375|2016-09                            100.00%    passed      -nan%
+  40  YN2018D|Bat-R_affinis|Yunnan|MK211378|2016-09                            100.00%    passed      -nan%
+  41  Rs4081|Bat-R_sinicus|Yunnan-Kunming|KY417143|2012-09-18                  100.00%    passed      -nan%
+  42  Rs4255|Bat-R_sinicus|Yunnan-Kunming|KY417149|2013-04-17                  100.00%    passed      -nan%
+  43  Rs672|Bat-R_sinicus|Guizhou|FJ588686|2006-09                             100.00%    passed      -nan%
+  44  HSZ-Cc|SARS-CoV-1|Guangzhou|AY394995|2002                                100.00%    passed      -nan%
+  45  F46|Bat-R_pusillus|Yunnan|KU973692|2012                                  100.00%    passed      -nan%
+  46  YNLF_31C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886808|2013-05-23           100.00%    passed      -nan%
+  47  YNLF_34C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886809|2013-05-23           100.00%    passed      -nan%
+  48  LYRa11|Bat-R_affinis|Yunnan-Baoshan|KF569996|2011                        100.00%    passed      -nan%
+  49  Yunnan2011|Bat-Chaerephon_plicata|Yunnan|JX993988|2011-11                100.00%    passed      -nan%
+  50  SC2018|Bat-R_spp|Sichuan|MK211374|2016-10                                100.00%    passed      -nan%
+  51  JL2012|Bat-R_ferrumequinum|Jilin|KJ473811|2012-10                        100.00%    passed      -nan%
+  52  JTMC15|Bat-R_ferrumequinum|Jilin|KU182964|2013-10                        100.00%    passed      -nan%
+  53  HeB2013|Bat-R_ferrumequinum|Hebei|KJ473812|2013-04                       100.00%    passed      -nan%
+  54  SX2013|Bat-R_ferrumequinum|Shanxi|KJ473813|2013-11                       100.00%    passed      -nan%
+  55  Jiyuan-84|Bat-R_ferrumequinum|Henan-Jiyuan|KY770860|2012                 100.00%    passed      -nan%
+  56  Rf1|Bat-R_ferrumequinum|Hubei-Yichang|DQ412042|2004-11                   100.00%    passed      -nan%
+  57  CoVZC45|Bat-R_sinicus|Zhoushan-Dinghai|MG772933|2017-02                   72.46%    failed      0.75%
+  58  CoVZXC21|Bat-R_sinicus|Zhoushan-Dinghai|MG772934|2015-07                  72.46%    failed      0.23%
+  59  PrC31|Bat-R_spp|Yunnan|EPI_ISL_1098866|2018-08                           100.00%    passed      -nan%
+  60  Wuhan-Hu-1|SARS-CoV-2|Wuhan|MN908947|2019-12                              21.97%    failed      0.00%
+  61  RaTG13|Bat-R_affinis|Yunnan|EPI_ISL_402131|2013-07-24                     22.28%    failed      0.00%
+  62  RShSTT182|Bat-R_shameli|Steung_Treng-Cambodia|EPI_ISL_852604|2010-12-06  100.00%    passed      -nan%
+  63  RShSTT200|Bat-R_shameli|Steung_Treng-Cambodia|EPI_ISL_852605|2010-12-06  100.00%    passed      -nan%
+  64  RmYN02|EPI_ISL_412977|China|Yunnan|Xishuangbanna|2019-06-25              100.00%    passed      -nan%
+  65  RpYN06                                                                   100.00%    passed      -nan%
+  66  RacCS203|Bat-R_acuminatus|Thailand|MW251308.1|2020-06-19                 100.00%    passed      -nan%
+  67  Pangolin-CoV|pangolin|Guandong|EPI_ISL_410721|2020-02-16                  30.16%    failed      0.00%
+  68  P4L|pangolin|Guangxi|EPI_ISL_410538|2017                                  35.14%    failed      0.02%
+  69  P5L|pangolin|Guangxi||EPI_ISL_410540|2017                                 35.14%    failed      0.01%
+  70  P5E|pangolin|Guangxi|EPI_ISL_410541|2017                                  35.14%    failed      0.01%
+  71  P1E|pangolin|Guangxi|EPI_ISL_410539|2017                                  35.14%    failed      0.02%
+  72  P2V|pangolin|Guangxi|EPI_ISL_410542|2017                                  20.94%    failed      0.00%
+  73  Rc-o319|Bat-R_cornutus|Iwate-Japan|LC556375.1|2013                       100.00%    passed      -nan%
+  74  BtKY72|Bat-R_spp|Kenya|KY352407|2007-10                                  100.00%    passed      -nan%
+  75  BM48-31|Bat-R_blasii|Bulgaria|NC_014470|2008-04                           30.13%    failed      3.32%
+  76  RsYN04                                                                   100.00%    passed      -nan%
+  77  RmYN05                                                                   100.00%    passed      -nan%
+  78  RmYN08                                                                   100.00%    passed      -nan%
+WARNING: 66 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                     88.27%  13 sequences failed composition chi2 test (p-value<5%; df=3)
+WARNING: Sequence Longquan_140|Bat-R_monoceros|China|KF294457|2012 contains only gaps or missing data
+WARNING: Sequence HKU3-1|Bat-R_sinicus|Hong_Kong|DQ022305|2005-02-17 contains only gaps or missing data
+WARNING: Sequence HKU3-3|Bat-R_sinicus|Hong_Kong|DQ084200|2005-03-17 contains only gaps or missing data
+WARNING: Sequence HKU3-2|Bat-R_sinicus|Hong_Kong|DQ084199|2005-02-24 contains only gaps or missing data
+WARNING: Sequence HKU3-4|Bat-R_sinicus|Hong_Kong|GQ153539|2005-07-20 contains only gaps or missing data
+WARNING: Sequence HKU3-6|Bat-R_sinicus|Hong_Kong|GQ153541|2005-12-16 contains only gaps or missing data
+WARNING: Sequence HKU3-5|Bat-R_sinicus|Hong_Kong|GQ153540|2005-09-20 contains only gaps or missing data
+WARNING: Sequence HKU3-10|Bat-R_sinicus|Hong_Kong|GQ153545|2006-10-28 contains only gaps or missing data
+WARNING: Sequence HKU3-9|Bat-R_sinicus|Hong_Kong|GQ153544|2006-10-28 contains only gaps or missing data
+WARNING: Sequence HKU3-11|Bat-R_sinicus|Hong_King|GQ153546|2007-03-07 contains only gaps or missing data
+WARNING: Sequence HKU3-13|Bat-R_sinicus|Hong_Kong|GQ153548|2007-11-15 contains only gaps or missing data
+WARNING: Sequence HKU3-12|Bat-R_sinicus|Hong_Kong|GQ153547|2007-05-15 contains only gaps or missing data
+WARNING: Sequence HKU3-7|Bat-R_sinicus|Guangdong|GQ153542|2006-02-15 contains only gaps or missing data
+WARNING: Sequence HKU3-8|Bat-R_sinicus|Guangdong|GQ153543|2006-02-15 contains only gaps or missing data
+WARNING: Sequence GX2013|Bat-R_sinicus|Guangxi|KJ473815|2012-11 contains only gaps or missing data
+WARNING: Sequence Rp3|Bat-R_pearsoni|Guangxi-Nanning|DQ071615|2004-12 contains only gaps or missing data
+WARNING: Sequence Rf4092|Bat-R_ferrumequinum|Yunnan-Kunming|KY417145|2012-09-18 contains only gaps or missing data
+WARNING: Sequence YN2013|Bat-R_sinicus|Yunnan|KJ473816|2010-12 contains only gaps or missing data
+WARNING: Sequence Anlong-103|Bat-R_sinicus|Guizhou-Anlong|KY770858|2013 contains only gaps or missing data
+WARNING: Sequence Anlong-112|Bat-R_sinicus|Guizhou-Anlong|KY770859|2013 contains only gaps or missing data
+WARNING: Sequence Rs4231|Bat-R_sinicus|Yunnan-Kunming|KY417146|2013-04-17 contains only gaps or missing data
+WARNING: Sequence WIV16|Bat-R_sinicus|Yunnan-Kunming|KT444582|2013-07-21 contains only gaps or missing data
+WARNING: Sequence Rs4874|Bat-R_sinicus|Yunnan-Kunming|KY417150|2013-07-21 contains only gaps or missing data
+WARNING: Sequence YN2018B|Bat-R_affinis|Yunnan|MK211376|2016-09 contains only gaps or missing data
+WARNING: Sequence Rs7327|Bat-R_sinicus|Yunnan--Kunming|KY417151|2014-10-24 contains only gaps or missing data
+WARNING: Sequence Rs9401|Bat-R_sinicus|Yunnan-Kunming|KY417152|2015-10-16 contains only gaps or missing data
+WARNING: Sequence RsSHC014|Bat-R_sinicus|Yunnan-Kunming|KC881005|2011-04-17 contains only gaps or missing data
+WARNING: Sequence Rs3367|Bat-R_sinicus|Yunnan-Kunming|KC881006|2012-03-19 contains only gaps or missing data
+WARNING: Sequence WIV1|Bat-R_sinicus|Yunnan-Kunming|KF367457|2012-09 contains only gaps or missing data
+WARNING: Sequence Rs4084|Bat-R_sinicus|Yunnan-Kunming|KY417144|2012-09-18 contains only gaps or missing data
+WARNING: Sequence YN2018C|Bat-R_affinis|Yunnan-Kunming|MK211377|2016-09 contains only gaps or missing data
+WARNING: Sequence As6526|Bat-Aselliscus_stoliczkanus|Yunnan-Kunming|KY417142|2014-05-12 contains only gaps or missing data
+WARNING: Sequence Rs4237|Bat-R_sinicus|Yunnan-Kunming|KY417147|2013-04-17 contains only gaps or missing data
+WARNING: Sequence Rs4247|Bat-R_sinicus|Yunnan-Kunming|KY417148|2013-04-17 contains only gaps or missing data
+WARNING: Sequence YN2018A|Bat-R_affinis|Yunnan|MK211375|2016-09 contains only gaps or missing data
+WARNING: Sequence YN2018D|Bat-R_affinis|Yunnan|MK211378|2016-09 contains only gaps or missing data
+WARNING: Sequence Rs4081|Bat-R_sinicus|Yunnan-Kunming|KY417143|2012-09-18 contains only gaps or missing data
+WARNING: Sequence Rs4255|Bat-R_sinicus|Yunnan-Kunming|KY417149|2013-04-17 contains only gaps or missing data
+WARNING: Sequence Rs672|Bat-R_sinicus|Guizhou|FJ588686|2006-09 contains only gaps or missing data
+WARNING: Sequence HSZ-Cc|SARS-CoV-1|Guangzhou|AY394995|2002 contains only gaps or missing data
+WARNING: Sequence F46|Bat-R_pusillus|Yunnan|KU973692|2012 contains only gaps or missing data
+WARNING: Sequence YNLF_31C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886808|2013-05-23 contains only gaps or missing data
+WARNING: Sequence YNLF_34C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886809|2013-05-23 contains only gaps or missing data
+WARNING: Sequence LYRa11|Bat-R_affinis|Yunnan-Baoshan|KF569996|2011 contains only gaps or missing data
+WARNING: Sequence Yunnan2011|Bat-Chaerephon_plicata|Yunnan|JX993988|2011-11 contains only gaps or missing data
+WARNING: Sequence SC2018|Bat-R_spp|Sichuan|MK211374|2016-10 contains only gaps or missing data
+WARNING: Sequence JL2012|Bat-R_ferrumequinum|Jilin|KJ473811|2012-10 contains only gaps or missing data
+WARNING: Sequence JTMC15|Bat-R_ferrumequinum|Jilin|KU182964|2013-10 contains only gaps or missing data
+WARNING: Sequence HeB2013|Bat-R_ferrumequinum|Hebei|KJ473812|2013-04 contains only gaps or missing data
+WARNING: Sequence SX2013|Bat-R_ferrumequinum|Shanxi|KJ473813|2013-11 contains only gaps or missing data
+WARNING: Sequence Jiyuan-84|Bat-R_ferrumequinum|Henan-Jiyuan|KY770860|2012 contains only gaps or missing data
+WARNING: Sequence Rf1|Bat-R_ferrumequinum|Hubei-Yichang|DQ412042|2004-11 contains only gaps or missing data
+WARNING: Sequence PrC31|Bat-R_spp|Yunnan|EPI_ISL_1098866|2018-08 contains only gaps or missing data
+WARNING: Sequence RShSTT182|Bat-R_shameli|Steung_Treng-Cambodia|EPI_ISL_852604|2010-12-06 contains only gaps or missing data
+WARNING: Sequence RShSTT200|Bat-R_shameli|Steung_Treng-Cambodia|EPI_ISL_852605|2010-12-06 contains only gaps or missing data
+WARNING: Sequence RmYN02|EPI_ISL_412977|China|Yunnan|Xishuangbanna|2019-06-25 contains only gaps or missing data
+WARNING: Sequence RpYN06 contains only gaps or missing data
+WARNING: Sequence RacCS203|Bat-R_acuminatus|Thailand|MW251308.1|2020-06-19 contains only gaps or missing data
+WARNING: Sequence Rc-o319|Bat-R_cornutus|Iwate-Japan|LC556375.1|2013 contains only gaps or missing data
+WARNING: Sequence BtKY72|Bat-R_spp|Kenya|KY352407|2007-10 contains only gaps or missing data
+WARNING: Sequence RsYN04 contains only gaps or missing data
+WARNING: Sequence RmYN05 contains only gaps or missing data
+WARNING: Sequence RmYN08 contains only gaps or missing data
+ERROR: Some sequences (see above) are problematic, please check your alignment again

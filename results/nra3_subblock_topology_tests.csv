@@ -1,0 +1,33 @@
+Dataset,Alignment_Block,Alignment_Name,Evaluated_Tree,Evaluated_Tree_Name,logL,deltaL,p_KH,p_SH,c_ELW,p_AU,Result
+68_taxa,Block1_ORF1a,ORF1a (nsp1–nsp10),Block1_ORF1a,ORF1a (nsp1–nsp10),-56456.16,0.0,0.765,1.0,0.763,0.787,Fail to reject
+68_taxa,Block1_ORF1a,ORF1a (nsp1–nsp10),Block2_ORF1b,ORF1b (nsp12–nsp16),-56560.913,104.75,0.0004,0.0004,1.04e-14,5.81e-06,REJECTED
+68_taxa,Block1_ORF1a,ORF1a (nsp1–nsp10),Block3_Spike,Spike Glycoprotein,-56505.53895,49.379,0.0019,0.0051,1.22e-06,7.22e-05,REJECTED
+68_taxa,Block1_ORF1a,ORF1a (nsp1–nsp10),Block4_3prime,3' Structural/Accessory,-56463.62129,7.4613,0.235,0.582,0.237,0.215,Fail to reject
+68_taxa,Block2_ORF1b,ORF1b (nsp12–nsp16),Block1_ORF1a,ORF1a (nsp1–nsp10),-23246.81615,8.2285,0.0565,0.0609,0.0272,0.0588,Fail to reject
+68_taxa,Block2_ORF1b,ORF1b (nsp12–nsp16),Block2_ORF1b,ORF1b (nsp12–nsp16),-23238.58767,0.0,0.884,1.0,0.84,0.938,Fail to reject
+68_taxa,Block2_ORF1b,ORF1b (nsp12–nsp16),Block3_Spike,Spike Glycoprotein,-23250.64522,12.058,0.0558,0.0639,0.0195,0.027,REJECTED
+68_taxa,Block2_ORF1b,ORF1b (nsp12–nsp16),Block4_3prime,3' Structural/Accessory,-23242.98247,4.3948,0.116,0.364,0.114,0.152,Fail to reject
+68_taxa,Block3_Spike,Spike Glycoprotein,Block1_ORF1a,ORF1a (nsp1–nsp10),-13807.6851,23.005,0.0821,0.0847,0.0143,0.0296,REJECTED
+68_taxa,Block3_Spike,Spike Glycoprotein,Block2_ORF1b,ORF1b (nsp12–nsp16),-13801.06936,16.39,0.11,0.172,0.0527,0.0339,REJECTED
+68_taxa,Block3_Spike,Spike Glycoprotein,Block3_Spike,Spike Glycoprotein,-13784.67978,0.0,0.836,1.0,0.783,0.931,Fail to reject
+68_taxa,Block3_Spike,Spike Glycoprotein,Block4_3prime,3' Structural/Accessory,-13798.43352,13.754,0.164,0.176,0.15,0.147,Fail to reject
+68_taxa,Block4_3prime,3' Structural/Accessory,Block1_ORF1a,ORF1a (nsp1–nsp10),-11021.25819,27.986,0.0094,0.014,0.00471,0.00376,REJECTED
+68_taxa,Block4_3prime,3' Structural/Accessory,Block2_ORF1b,ORF1b (nsp12–nsp16),-11029.99325,36.721,0.0081,0.0102,0.00195,0.00263,REJECTED
+68_taxa,Block4_3prime,3' Structural/Accessory,Block3_Spike,Spike Glycoprotein,-11030.83984,37.568,0.0042,0.0049,0.000234,0.00118,REJECTED
+68_taxa,Block4_3prime,3' Structural/Accessory,Block4_3prime,3' Structural/Accessory,-10993.27217,0.0,0.991,1.0,0.993,0.998,Fail to reject
+78_taxa,Block1_ORF1a,ORF1a (nsp1–nsp10),Block1_ORF1a,ORF1a (nsp1–nsp10),-49309.15428,0.0,0.842,1.0,0.788,0.852,Fail to reject
+78_taxa,Block1_ORF1a,ORF1a (nsp1–nsp10),Block2_ORF1b,ORF1b (nsp12–nsp16),-49313.94462,4.7903,0.159,0.366,0.103,0.203,Fail to reject
+78_taxa,Block1_ORF1a,ORF1a (nsp1–nsp10),Block3_Spike,Spike Glycoprotein,-49327.86178,18.708,0.0139,0.015,0.00703,0.0096,REJECTED
+78_taxa,Block1_ORF1a,ORF1a (nsp1–nsp10),Block4_3prime,3' Structural/Accessory,-49313.94454,4.7903,0.158,0.366,0.102,0.203,Fail to reject
+78_taxa,Block2_ORF1b,ORF1b (nsp12–nsp16),Block1_ORF1a,ORF1a (nsp1–nsp10),-22547.3751,0.6275,0.288,0.613,0.264,0.277,Fail to reject
+78_taxa,Block2_ORF1b,ORF1b (nsp12–nsp16),Block2_ORF1b,ORF1b (nsp12–nsp16),-22546.7476,0.0,0.517,1.0,0.367,0.568,Fail to reject
+78_taxa,Block2_ORF1b,ORF1b (nsp12–nsp16),Block3_Spike,Spike Glycoprotein,-22569.30986,22.562,0.004,0.0048,0.0013,0.00222,REJECTED
+78_taxa,Block2_ORF1b,ORF1b (nsp12–nsp16),Block4_3prime,3' Structural/Accessory,-22546.74768,8.0345e-05,0.482,0.968,0.367,0.704,Fail to reject
+78_taxa,Block3_Spike,Spike Glycoprotein,Block1_ORF1a,ORF1a (nsp1–nsp10),-13805.6346,3.7962,0.29,0.349,0.122,0.221,Fail to reject
+78_taxa,Block3_Spike,Spike Glycoprotein,Block2_ORF1b,ORF1b (nsp12–nsp16),-13802.37097,0.53262,0.462,0.703,0.209,0.566,Fail to reject
+78_taxa,Block3_Spike,Spike Glycoprotein,Block3_Spike,Spike Glycoprotein,-13801.83835,0.0,0.538,1.0,0.46,0.583,Fail to reject
+78_taxa,Block3_Spike,Spike Glycoprotein,Block4_3prime,3' Structural/Accessory,-13802.3703,0.53195,0.462,0.703,0.209,0.566,Fail to reject
+78_taxa,Block4_3prime,3' Structural/Accessory,Block1_ORF1a,ORF1a (nsp1–nsp10),-11927.6359,4.214,0.149,0.189,0.112,0.136,Fail to reject
+78_taxa,Block4_3prime,3' Structural/Accessory,Block2_ORF1b,ORF1b (nsp12–nsp16),-11923.42207,0.00021911,0.498,0.841,0.298,0.641,Fail to reject
+78_taxa,Block4_3prime,3' Structural/Accessory,Block3_Spike,Spike Glycoprotein,-11923.74244,0.32059,0.413,0.645,0.293,0.494,Fail to reject
+78_taxa,Block4_3prime,3' Structural/Accessory,Block4_3prime,3' Structural/Accessory,-11923.42185,0.0,0.502,1.0,0.297,0.782,Fail to reject

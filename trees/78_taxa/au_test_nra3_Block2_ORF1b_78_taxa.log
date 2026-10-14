@@ -1,0 +1,237 @@
+IQ-TREE multicore version 2.2.6 COVID-edition for Linux 64-bit built Dec  8 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    rubicon (AVX512, FMA3, 30 GB RAM)
+Command: /home/jono/.conda/envs/critrev/bin/iqtree2 -s /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/alignments/78_taxa/NRA3_core_Block2_ORF1b.aln.fasta -m GTR+G4 -z /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/nra3_core_candidates_78_taxa.tre -zb 10000 -au -T 8 --prefix /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/au_test_nra3_Block2_ORF1b_78_taxa --redo
+Seed:    675207 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Oct 14 13:43:21 2026
+Kernel:  AVX+FMA - 8 threads (16 CPU cores detected)
+
+Reading alignment file /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/alignments/78_taxa/NRA3_core_Block2_ORF1b.aln.fasta ... Fasta format detected
+Reading fasta file: done in 0.00198395 secs using 85.94% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00545428 secs using 743.3% CPU
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 11 sequences with 6578 columns, 1113 distinct patterns
+1266 parsimony-informative, 626 singleton sites, 4686 constant sites
+                                                          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.0479e-05 secs using 87.89% CPU
+   1  RpShaanxi2011|Bat-R_pusillus|Shaanxi|JX993987|2011-09      20.51%    failed      0.40%
+   2  HuB2013|Bat-Bat-R_sinicus|Hubei|KJ473814|2013-04            6.14%    failed      0.31%
+   3  279_2005|Bat-R_macrotis|Hubei|DQ648857|2004-11              0.02%    failed      4.09%
+   4  Rm1|Bat-R_macrotis|Hubei|DQ412043|2004-11                   0.02%    failed      2.34%
+   5  CoVZC45|Bat-R_sinicus|Zhoushan-Dinghai|MG772933|2017-02    85.24%    passed     20.45%
+   6  CoVZXC21|Bat-R_sinicus|Zhoushan-Dinghai|MG772934|2015-07   85.24%    passed     35.01%
+   7  Wuhan-Hu-1|SARS-CoV-2|Wuhan|MN908947|2019-12                8.63%    failed      1.30%
+   8  RaTG13|Bat-R_affinis|Yunnan|EPI_ISL_402131|2013-07-24       8.63%    failed      1.94%
+   9  Pangolin-CoV|pangolin|Guandong|EPI_ISL_410721|2020-02-16   17.01%    passed      5.82%
+  10  P2V|pangolin|Guangxi|EPI_ISL_410542|2017                    0.11%    passed      7.50%
+  11  BM48-31|Bat-R_blasii|Bulgaria|NC_014470|2008-04            21.82%    passed     16.90%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                      23.03%  6 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 7.459e-05 secs using 88.48% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -23951.199
+2. Current log-likelihood: -22595.592
+3. Current log-likelihood: -22553.944
+4. Current log-likelihood: -22552.125
+Optimal log-likelihood: -22552.050
+Rate parameters:  A-C: 1.20508  A-G: 7.09346  A-T: 3.71161  C-G: 0.43162  C-T: 15.79668  G-T: 1.00000
+Base frequencies:  A: 0.302  C: 0.186  G: 0.203  T: 0.309
+Gamma shape alpha: 0.237
+Parameters optimization took 4 rounds (0.041 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.000214303 secs using 1663% CPU
+Computing ML distances took 0.000283 sec (of wall-clock time) 0.003637 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000667454 secs using 253.5% CPU
+Constructing RapidNJ tree: done in 0.00461962 secs using 171.7% CPU
+Computing RapidNJ tree took 0.005402 sec (of wall-clock time) 0.010629 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -22567.323
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.121 second
+Computing log-likelihood of 93 initial trees ... 0.101 seconds
+Current best score: -22552.050
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 0.0128153 secs using 806.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -22546.751
+Optimizing NNI: done in 0.0100591 secs using 783.3% CPU
+Optimizing NNI: done in 0.0069124 secs using 806.4% CPU
+Optimizing NNI: done in 0.0116736 secs using 817.2% CPU
+Optimizing NNI: done in 0.0111224 secs using 781.3% CPU
+Optimizing NNI: done in 0.0066814 secs using 726.8% CPU
+Optimizing NNI: done in 0.0160974 secs using 830.6% CPU
+Optimizing NNI: done in 0.0110876 secs using 791.8% CPU
+Optimizing NNI: done in 0.0111953 secs using 775.9% CPU
+Optimizing NNI: done in 0.0122823 secs using 771.4% CPU
+Iteration 10 / LogL: -22546.798 / Time: 0h:0m:0s
+Optimizing NNI: done in 0.0166847 secs using 792.5% CPU
+Optimizing NNI: done in 0.0112108 secs using 772.6% CPU
+Optimizing NNI: done in 0.0124044 secs using 766.2% CPU
+Optimizing NNI: done in 0.0100659 secs using 792.8% CPU
+Optimizing NNI: done in 0.0141091 secs using 834.5% CPU
+Optimizing NNI: done in 0.0127353 secs using 773.2% CPU
+Optimizing NNI: done in 0.0130589 secs using 786.2% CPU
+Optimizing NNI: done in 0.0140061 secs using 797% CPU
+Optimizing NNI: done in 0.0124982 secs using 809.7% CPU
+Optimizing NNI: done in 0.022161 secs using 792.8% CPU
+Iteration 20 / LogL: -22546.914 / Time: 0h:0m:0s
+Finish initializing candidate tree set (1)
+Current best tree score: -22546.751 / CPU time: 0.481
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 0.0131864 secs using 788% CPU
+Optimizing NNI: done in 0.0163994 secs using 817.6% CPU
+Optimizing NNI: done in 0.0263225 secs using 785.1% CPU
+Optimizing NNI: done in 0.00801888 secs using 795.5% CPU
+Optimizing NNI: done in 0.0113377 secs using 776.9% CPU
+Optimizing NNI: done in 0.01431 secs using 775.6% CPU
+Optimizing NNI: done in 0.0233301 secs using 817.7% CPU
+Optimizing NNI: done in 0.018955 secs using 788.9% CPU
+Optimizing NNI: done in 0.0116626 secs using 817.6% CPU
+Optimizing NNI: done in 0.0121936 secs using 834% CPU
+Iteration 30 / LogL: -22546.807 / Time: 0h:0m:0s (0h:0m:1s left)
+Optimizing NNI: done in 0.0233452 secs using 786.8% CPU
+Optimizing NNI: done in 0.00875633 secs using 817.2% CPU
+Optimizing NNI: done in 0.0199586 secs using 789.3% CPU
+Optimizing NNI: done in 0.0176947 secs using 798.7% CPU
+Optimizing NNI: done in 0.0153936 secs using 805.4% CPU
+Optimizing NNI: done in 0.0231874 secs using 787.2% CPU
+Optimizing NNI: done in 0.0176693 secs using 799.3% CPU
+Optimizing NNI: done in 0.0264977 secs using 806.7% CPU
+Optimizing NNI: done in 0.0225283 secs using 806.6% CPU
+Optimizing NNI: done in 0.00854876 secs using 834.4% CPU
+Iteration 40 / LogL: -22547.090 / Time: 0h:0m:0s (0h:0m:1s left)
+Optimizing NNI: done in 0.0193721 secs using 778.8% CPU
+Optimizing NNI: done in 0.0192465 secs using 776.9% CPU
+Optimizing NNI: done in 0.0179271 secs using 794.5% CPU
+Optimizing NNI: done in 0.0124633 secs using 771.3% CPU
+Optimizing NNI: done in 0.0177757 secs using 795.6% CPU
+Optimizing NNI: done in 0.0081116 secs using 788.4% CPU
+Optimizing NNI: done in 0.00613376 secs using 782.3% CPU
+Optimizing NNI: done in 0.0132774 secs using 820.8% CPU
+Optimizing NNI: done in 0.0152728 secs using 779% CPU
+Optimizing NNI: done in 0.011975 secs using 798.6% CPU
+Iteration 50 / LogL: -22547.023 / Time: 0h:0m:1s (0h:0m:1s left)
+Optimizing NNI: done in 0.0154154 secs using 765.7% CPU
+Optimizing NNI: done in 0.0152895 secs using 778% CPU
+Optimizing NNI: done in 0.0087372 secs using 807.3% CPU
+Optimizing NNI: done in 0.0124597 secs using 828.2% CPU
+Optimizing NNI: done in 0.00843897 secs using 797.1% CPU
+Optimizing NNI: done in 0.0243671 secs using 783.5% CPU
+Optimizing NNI: done in 0.0162449 secs using 787% CPU
+Optimizing NNI: done in 0.0152684 secs using 785.2% CPU
+Optimizing NNI: done in 0.0177497 secs using 796.4% CPU
+Optimizing NNI: done in 0.0182698 secs using 787.5% CPU
+Iteration 60 / LogL: -22546.799 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.0203112 secs using 820.9% CPU
+Optimizing NNI: done in 0.00695565 secs using 787.5% CPU
+UPDATE BEST LOG-LIKELIHOOD: -22546.749
+Optimizing NNI: done in 0.0253589 secs using 783.6% CPU
+Optimizing NNI: done in 0.0202607 secs using 817.9% CPU
+Optimizing NNI: done in 0.0255122 secs using 782.1% CPU
+Optimizing NNI: done in 0.00860613 secs using 746.9% CPU
+Optimizing NNI: done in 0.012881 secs using 803% CPU
+Optimizing NNI: done in 0.0260518 secs using 790.6% CPU
+Optimizing NNI: done in 0.0131633 secs using 832% CPU
+Optimizing NNI: done in 0.00843494 secs using 760.1% CPU
+Iteration 70 / LogL: -22546.856 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.0145892 secs using 768.6% CPU
+Optimizing NNI: done in 0.0177236 secs using 768% CPU
+Optimizing NNI: done in 0.00960951 secs using 753.1% CPU
+Optimizing NNI: done in 0.0203464 secs using 780.2% CPU
+Optimizing NNI: done in 0.0233466 secs using 803.1% CPU
+Optimizing NNI: done in 0.0113667 secs using 832.9% CPU
+Optimizing NNI: done in 0.018293 secs using 762.9% CPU
+Optimizing NNI: done in 0.013475 secs using 771.3% CPU
+Optimizing NNI: done in 0.0192285 secs using 787.8% CPU
+Optimizing NNI: done in 0.00822567 secs using 850.5% CPU
+Iteration 80 / LogL: -22546.794 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.00728242 secs using 755.5% CPU
+Optimizing NNI: done in 0.0111372 secs using 850.9% CPU
+Optimizing NNI: done in 0.0163813 secs using 774.2% CPU
+Optimizing NNI: done in 0.0244625 secs using 776.1% CPU
+Optimizing NNI: done in 0.0260556 secs using 788.5% CPU
+Optimizing NNI: done in 0.0181775 secs using 785.6% CPU
+Optimizing NNI: done in 0.0234652 secs using 811.9% CPU
+Optimizing NNI: done in 0.00851499 secs using 836.9% CPU
+Optimizing NNI: done in 0.0192394 secs using 778.7% CPU
+Optimizing NNI: done in 0.0222225 secs using 790% CPU
+Iteration 90 / LogL: -22546.914 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.0159938 secs using 797.6% CPU
+Optimizing NNI: done in 0.0100303 secs using 795.4% CPU
+Optimizing NNI: done in 0.0126228 secs using 747.6% CPU
+Optimizing NNI: done in 0.0291882 secs using 785.2% CPU
+Optimizing NNI: done in 0.0112895 secs using 842.1% CPU
+Optimizing NNI: done in 0.0115224 secs using 766.1% CPU
+Optimizing NNI: done in 0.02038 secs using 779.4% CPU
+Optimizing NNI: done in 0.00810926 secs using 837.6% CPU
+Optimizing NNI: done in 0.0231888 secs using 777.2% CPU
+Optimizing NNI: done in 0.0141571 secs using 782.8% CPU
+Iteration 100 / LogL: -22546.763 / Time: 0h:0m:1s (0h:0m:0s left)
+Optimizing NNI: done in 0.0161543 secs using 766.8% CPU
+Optimizing NNI: done in 0.0191685 secs using 786.7% CPU
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -22546.749
+Optimal log-likelihood: -22546.748
+Rate parameters:  A-C: 1.20361  A-G: 7.10485  A-T: 3.71744  C-G: 0.42380  C-T: 15.81236  G-T: 1.00000
+Base frequencies:  A: 0.302  C: 0.186  G: 0.203  T: 0.309
+Gamma shape alpha: 0.239
+Parameters optimization took 1 rounds (0.003 sec)
+BEST SCORE FOUND : -22546.748
+Total tree length: 0.819
+
+Total number of iterations: 102
+CPU time used for tree search: 13.771 sec (0h:0m:13s)
+Wall-clock time used for tree search: 1.835 sec (0h:0m:1s)
+Total CPU time used: 14.271 sec (0h:0m:14s)
+Total wall-clock time used: 1.905 sec (0h:0m:1s)
+Reading trees in /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/nra3_core_candidates_78_taxa.tre ...
+
+4 trees detected
+Note: 42.924 MB of RAM required!
+Creating 10000 bootstrap replicates...
+done
+Tree 1 / LogL: -22547.375
+Tree 2 / LogL: -22546.748
+Tree 3 / LogL: -22569.310
+Tree 4 / LogL: -22546.748
+Performing RELL-BP test...
+Performing KH and SH test...
+Performing ELW test...
+Performing approximately unbiased (AU) test...
+3 MB required for AU test
+Generating 10 x 10000 multiscale bootstrap replicates... 1.923 seconds
+TreeID	AU	RSS	d	c
+1	0.277	6.575	0.546	-0.045
+2	0.568	15.820	-0.060	0.112
+3	0.002	5.865	2.843	-0.001
+4	0.704	13.951	0.132	0.669
+Time for AU test: 1.924 seconds
+Time for evaluating all trees: 3.642 sec.
+
+Analysis results written to: 
+  IQ-TREE report:                /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/au_test_nra3_Block2_ORF1b_78_taxa.iqtree
+  Maximum-likelihood tree:       /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/au_test_nra3_Block2_ORF1b_78_taxa.treefile
+  Likelihood distances:          /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/au_test_nra3_Block2_ORF1b_78_taxa.mldist
+  Evaluated user trees:          /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/au_test_nra3_Block2_ORF1b_78_taxa.trees
+  Screen log file:               /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/au_test_nra3_Block2_ORF1b_78_taxa.log
+
+Date and Time: Wed Oct 14 13:43:27 2026

@@ -1,0 +1,221 @@
+IQ-TREE 2.2.6 COVID-edition built Dec  8 2023
+
+Input file name: /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/alignments/68_taxa/NRA3_core_Block4_3prime.aln.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 723189
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 22 sequences with 3009 nucleotide sites
+Number of constant sites: 2130 (= 70.7876% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 2130 (= 70.7876% of all sites)
+Number of parsimony informative sites: 733
+Number of distinct site patterns: 714
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 1.2215
+  A-G: 3.4432
+  A-T: 1.7488
+  C-G: 0.4326
+  C-T: 6.0658
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2899
+  pi(C) = 0.2267
+  pi(G) = 0.2047
+  pi(T) = 0.2787
+
+Rate matrix Q:
+
+  A   -0.8287    0.1562    0.3975     0.275
+  C    0.1998    -1.203   0.04994    0.9538
+  G    0.5631   0.05533   -0.7756    0.1572
+  T     0.286    0.7759    0.1154    -1.177
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.2625
+
+ Category  Relative_rate  Proportion
+  1         0.002748       0.25
+  2         0.07588        0.25
+  3         0.5272         0.25
+  4         3.394          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -10993.2723 (s.e. 188.0968)
+Unconstrained log-likelihood (without tree): -14539.9813
+Number of free parameters (#branches + #model parameters): 50
+Akaike information criterion (AIC) score: 22086.5446
+Corrected Akaike information criterion (AICc) score: 22088.2687
+Bayesian information criterion (BIC) score: 22387.0127
+
+Total tree length (sum of branch lengths): 0.9096
+Sum of internal branch lengths: 0.4793 (52.6883% of tree length)
+
+WARNING: 2 near-zero internal branches (<0.0003) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'RpShaanxi2011|Bat-R_pusillus|Shaanxi|JX993987|2011-09' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++---RpShaanxi2011|Bat-R_pusillus|Shaanxi|JX993987|2011-09
+|
+|  +--HuB2013|Bat-Bat-R_sinicus|Hubei|KJ473814|2013-04
++--| (96)
+|  |  +--279_2005|Bat-R_macrotis|Hubei|DQ648857|2004-11
+|  +--| (100)
+|     +**Rm1|Bat-R_macrotis|Hubei|DQ412043|2004-11
+|
+|              +--YN2018B|Bat-R_affinis|Yunnan|MK211376|2016-09
+|           +--| (99)
+|           |  +**YN2018D|Bat-R_affinis|Yunnan|MK211378|2016-09
+|        +--| (71)
+|        |  |  +--Rs7327|Bat-R_sinicus|Yunnan--Kunming|KY417151|2014-10-24
+|        |  +--| (82)
+|        |     +--Rs4255|Bat-R_sinicus|Yunnan-Kunming|KY417149|2013-04-17
+|     +--| (98)
+|     |  +--RsSHC014|Bat-R_sinicus|Yunnan-Kunming|KC881005|2011-04-17
+|  +--| (92)
+|  |  |   +--YNLF_31C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886808|2013-05-23
+|  |  +---| (100)
+|  |      +--YNLF_34C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886809|2013-05-23
++--| (97)
+   |                                            +--CoVZC45|Bat-R_sinicus|Zhoushan-Dinghai|MG772933|2017-02
+   |                                   +--------| (100)
+   |                                   |        +--CoVZXC21|Bat-R_sinicus|Zhoushan-Dinghai|MG772934|2015-07
+   |                             +-----| (100)
+   |                             |     |     +--Wuhan-Hu-1|SARS-CoV-2|Wuhan|MN908947|2019-12
+   |                             |     |  +--| (100)
+   |                             |     |  |  +--RaTG13|Bat-R_affinis|Yunnan|EPI_ISL_402131|2013-07-24
+   |                             |     +--| (54)
+   |                             |        +----1|pangolin|Guandong|EPI_ISL_410721|2020-02-16
+   |       +---------------------| (100)
+   |       |                     |               +--P4L|pangolin|Guangxi|EPI_ISL_410538|2017
+   |       |                     |            +**| (27)
+   |       |                     |            |  +--P2V|pangolin|Guangxi|EPI_ISL_410542|2017
+   |       |                     |         +**| (37)
+   |       |                     |         |  |  +--P5L|pangolin|Guangxi||EPI_ISL_410540|2017
+   |       |                     |         |  +--| (83)
+   |       |                     |         |     +--P1E|pangolin|Guangxi|EPI_ISL_410539|2017
+   |       |                     +---------| (100)
+   |       |                               +--P5E|pangolin|Guangxi|EPI_ISL_410541|2017
+   +-------| (93)
+           +------------------------------------------------BM48-31|Bat-R_blasii|Bulgaria|NC_014470|2008-04
+
+Tree in newick format:
+
+(RpShaanxi2011|Bat-R_pusillus|Shaanxi|JX993987|2011-09:0.0256473417,(HuB2013|Bat-Bat-R_sinicus|Hubei|KJ473814|2013-04:0.0109376649,(279_2005|Bat-R_macrotis|Hubei|DQ648857|2004-11:0.0021579552,Rm1|Bat-R_macrotis|Hubei|DQ412043|2004-11:0.0000010000)100:0.0163324915)96:0.0100026528,(((((YN2018B|Bat-R_affinis|Yunnan|MK211376|2016-09:0.0012388383,YN2018D|Bat-R_affinis|Yunnan|MK211378|2016-09:0.0000010000)99:0.0047494331,(Rs7327|Bat-R_sinicus|Yunnan--Kunming|KY417151|2014-10-24:0.0029270310,Rs4255|Bat-R_sinicus|Yunnan-Kunming|KY417149|2013-04-17:0.0056770430)82:0.0016047189)71:0.0017479495,RsSHC014|Bat-R_sinicus|Yunnan-Kunming|KC881005|2011-04-17:0.0048846153)98:0.0142510523,(YNLF_31C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886808|2013-05-23:0.0003817855,YNLF_34C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886809|2013-05-23:0.0004373638)100:0.0251438881)92:0.0146998376,((((CoVZC45|Bat-R_sinicus|Zhoushan-Dinghai|MG772933|2017-02:0.0037650478,CoVZXC21|Bat-R_sinicus|Zhoushan-Dinghai|MG772934|2015-07:0.0020409833)100:0.0558062549,((Wuhan-Hu-1|SARS-CoV-2|Wuhan|MN908947|2019-12:0.0166533025,RaTG13|Bat-R_affinis|Yunnan|EPI_ISL_402131|2013-07-24:0.0176680771)100:0.0150210798,1|pangolin|Guandong|EPI_ISL_410721|2020-02-16:0.0319907134)54:0.0080820331)100:0.0420157209,(((P4L|pangolin|Guangxi|EPI_ISL_410538|2017:0.0010176805,P2V|pangolin|Guangxi|EPI_ISL_410542|2017:0.0006775806)27:0.0000010000,(P5L|pangolin|Guangxi||EPI_ISL_410540|2017:0.0003385476,P1E|pangolin|Guangxi|EPI_ISL_410539|2017:0.0006768663)83:0.0003385455)37:0.0000010000,P5E|pangolin|Guangxi|EPI_ISL_410541|2017:0.0013599608)100:0.0660506294)100:0.1362544541,BM48-31|Bat-R_blasii|Bulgaria|NC_014470|2008-04:0.2998832998)93:0.0505172661)97:0.0166504733);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -10993.282760
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++---RpShaanxi2011|Bat-R_pusillus|Shaanxi|JX993987|2011-09
+|
+|  +--HuB2013|Bat-Bat-R_sinicus|Hubei|KJ473814|2013-04
++--| (96)
+|  |  +--279_2005|Bat-R_macrotis|Hubei|DQ648857|2004-11
+|  +--| (100)
+|     +--Rm1|Bat-R_macrotis|Hubei|DQ412043|2004-11
+|
+|              +--YN2018B|Bat-R_affinis|Yunnan|MK211376|2016-09
+|           +--| (99)
+|           |  +--YN2018D|Bat-R_affinis|Yunnan|MK211378|2016-09
+|        +--| (71)
+|        |  |  +--Rs7327|Bat-R_sinicus|Yunnan--Kunming|KY417151|2014-10-24
+|        |  +--| (82)
+|        |     +--Rs4255|Bat-R_sinicus|Yunnan-Kunming|KY417149|2013-04-17
+|     +--| (98)
+|     |  +--RsSHC014|Bat-R_sinicus|Yunnan-Kunming|KC881005|2011-04-17
+|  +--| (92)
+|  |  |   +--YNLF_31C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886808|2013-05-23
+|  |  +---| (100)
+|  |      +--YNLF_34C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886809|2013-05-23
++--| (97)
+   |                                            +--CoVZC45|Bat-R_sinicus|Zhoushan-Dinghai|MG772933|2017-02
+   |                                   +--------| (100)
+   |                                   |        +--CoVZXC21|Bat-R_sinicus|Zhoushan-Dinghai|MG772934|2015-07
+   |                             +-----| (100)
+   |                             |     |     +--Wuhan-Hu-1|SARS-CoV-2|Wuhan|MN908947|2019-12
+   |                             |     |  +--| (100)
+   |                             |     |  |  +--RaTG13|Bat-R_affinis|Yunnan|EPI_ISL_402131|2013-07-24
+   |                             |     +--| (54)
+   |                             |        +----1|pangolin|Guandong|EPI_ISL_410721|2020-02-16
+   |       +---------------------| (100)
+   |       |                     |            +--P4L|pangolin|Guangxi|EPI_ISL_410538|2017
+   |       |                     |         +--| (37)
+   |       |                     |         |  |     +--P5L|pangolin|Guangxi||EPI_ISL_410540|2017
+   |       |                     |         |  |  +--| (83)
+   |       |                     |         |  |  |  +--P1E|pangolin|Guangxi|EPI_ISL_410539|2017
+   |       |                     |         |  +--| (29)
+   |       |                     |         |     +--P2V|pangolin|Guangxi|EPI_ISL_410542|2017
+   |       |                     +---------| (100)
+   |       |                               +--P5E|pangolin|Guangxi|EPI_ISL_410541|2017
+   +-------| (93)
+           +-----------------------------------------------BM48-31|Bat-R_blasii|Bulgaria|NC_014470|2008-04
+
+
+Consensus tree in newick format: 
+
+(RpShaanxi2011|Bat-R_pusillus|Shaanxi|JX993987|2011-09:0.0256403487,(HuB2013|Bat-Bat-R_sinicus|Hubei|KJ473814|2013-04:0.0109354677,(279_2005|Bat-R_macrotis|Hubei|DQ648857|2004-11:0.0021568135,Rm1|Bat-R_macrotis|Hubei|DQ412043|2004-11:0.0000022957)100:0.0163283812)96:0.0099994586,(((((YN2018B|Bat-R_affinis|Yunnan|MK211376|2016-09:0.0012372351,YN2018D|Bat-R_affinis|Yunnan|MK211378|2016-09:0.0000026305)99:0.0047475345,(Rs7327|Bat-R_sinicus|Yunnan--Kunming|KY417151|2014-10-24:0.0029263725,Rs4255|Bat-R_sinicus|Yunnan-Kunming|KY417149|2013-04-17:0.0056744134)82:0.0016041937)71:0.0017467228,RsSHC014|Bat-R_sinicus|Yunnan-Kunming|KC881005|2011-04-17:0.0048838377)98:0.0142488362,(YNLF_31C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886808|2013-05-23:0.0003811629,YNLF_34C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886809|2013-05-23:0.0004369907)100:0.0251388775)92:0.0146996590,((((CoVZC45|Bat-R_sinicus|Zhoushan-Dinghai|MG772933|2017-02:0.0037638833,CoVZXC21|Bat-R_sinicus|Zhoushan-Dinghai|MG772934|2015-07:0.0020406102)100:0.0557925425,((Wuhan-Hu-1|SARS-CoV-2|Wuhan|MN908947|2019-12:0.0166500740,RaTG13|Bat-R_affinis|Yunnan|EPI_ISL_402131|2013-07-24:0.0176633899)100:0.0150174293,1|pangolin|Guandong|EPI_ISL_410721|2020-02-16:0.0319828198)54:0.0080788718)100:0.0420100289,((P4L|pangolin|Guangxi|EPI_ISL_410538|2017:0.0010167470,((P5L|pangolin|Guangxi||EPI_ISL_410540|2017:0.0003377524,P1E|pangolin|Guangxi|EPI_ISL_410539|2017:0.0006759277)83:0.0003377503,P2V|pangolin|Guangxi|EPI_ISL_410542|2017:0.0006766377)29:0.0000022957)37:0.0000022957,P5E|pangolin|Guangxi|EPI_ISL_410541|2017:0.0013576928)100:0.0660291691)100:0.1357818809,BM48-31|Bat-R_blasii|Bulgaria|NC_014470|2008-04:0.2994722340)93:0.0508223763)97:0.0166471036);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/68_taxa/NRA3_core_Block4_3prime.treefile -m "GTR{1.22154,3.44325,1.74878,0.432575,6.06581}+F{0.289876,0.226742,0.204652,0.27873}+G4{0.26253}" --length 3009
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/alignments/68_taxa/NRA3_core_Block4_3prime.aln.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/alignments/68_taxa/NRA3_core_Block4_3prime.aln.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Sep 24 21:07:29 2026
+Total CPU time used: 19.020095 seconds (0h:0m:19s)
+Total wall-clock time used: 2.53408474 seconds (0h:0m:2s)
+

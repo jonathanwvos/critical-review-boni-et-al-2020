@@ -1,0 +1,13 @@
+name: critrev
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.12
+  - pip
+  - setuptools
+  - mafft=7.525
+  - iqtree=2.2.6
+  - pip:
+      - -r ../requirements.txt

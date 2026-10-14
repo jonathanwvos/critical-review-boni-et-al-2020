@@ -1,0 +1,55 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=11;
+TAXLABELS
+[1] 'RpShaanxi2011|Bat-R_pusillus|Shaanxi|JX993987|2011-09'
+[2] 'HuB2013|Bat-Bat-R_sinicus|Hubei|KJ473814|2013-04'
+[3] '279_2005|Bat-R_macrotis|Hubei|DQ648857|2004-11'
+[4] 'Rm1|Bat-R_macrotis|Hubei|DQ412043|2004-11'
+[5] 'CoVZC45|Bat-R_sinicus|Zhoushan-Dinghai|MG772933|2017-02'
+[6] 'CoVZXC21|Bat-R_sinicus|Zhoushan-Dinghai|MG772934|2015-07'
+[7] 'Wuhan-Hu-1|SARS-CoV-2|Wuhan|MN908947|2019-12'
+[8] 'RaTG13|Bat-R_affinis|Yunnan|EPI_ISL_402131|2013-07-24'
+[9] 'Pangolin-CoV|pangolin|Guandong|EPI_ISL_410721|2020-02-16'
+[10] 'P2V|pangolin|Guangxi|EPI_ISL_410542|2017'
+[11] 'BM48-31|Bat-R_blasii|Bulgaria|NC_014470|2008-04'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=11 nsplits=29;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 3,
+	100	 4,
+	100	 3 4,
+	42	 2 3 4,
+	100	 5,
+	100	 6,
+	100	 5 6,
+	100	 8,
+	28	 5 6 8,
+	100	 7,
+	36	 5 6 7 8,
+	100	 9,
+	100	 5 6 7 8 9,
+	100	 10,
+	100	 1 2 3 4 11,
+	100	 11,
+	100	 1 2 3 4,
+	100	 1,
+	58	 1 3 4,
+	71	 7 8,
+	60	 7 8 9,
+	3	 5 6 9,
+	0	 8 9,
+	0	 5 6 8 9,
+	0	 1 2,
+	0	 1 2 3 4 10,
+	0	 7 9,
+	0	 5 6 7,
+;
+END; [Splits]
+

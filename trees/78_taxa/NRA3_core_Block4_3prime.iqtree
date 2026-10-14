@@ -1,0 +1,174 @@
+IQ-TREE 2.2.6 COVID-edition built Dec  8 2023
+
+Input file name: /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/alignments/78_taxa/NRA3_core_Block4_3prime.aln.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 639673
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 11 sequences with 4962 nucleotide sites
+Number of constant sites: 3953 (= 79.6655% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 3953 (= 79.6655% of all sites)
+Number of parsimony informative sites: 496
+Number of distinct site patterns: 648
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 1.3550
+  A-G: 4.2130
+  A-T: 2.0830
+  C-G: 0.6814
+  C-T: 6.4542
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2833
+  pi(C) = 0.2229
+  pi(G) = 0.1996
+  pi(T) = 0.2943
+
+Rate matrix Q:
+
+  A   -0.8695    0.1495    0.4164    0.3035
+  C    0.1901    -1.198   0.06735    0.9405
+  G    0.5909   0.07521   -0.8119    0.1457
+  T    0.2922    0.7123   0.09884    -1.103
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.2574
+
+ Category  Relative_rate  Proportion
+  1         0.002473       0.25
+  2         0.07206        0.25
+  3         0.5168         0.25
+  4         3.409          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -11923.4219 (s.e. 171.0163)
+Unconstrained log-likelihood (without tree): -22729.0057
+Number of free parameters (#branches + #model parameters): 28
+Akaike information criterion (AIC) score: 23902.8438
+Corrected Akaike information criterion (AICc) score: 23903.1730
+Bayesian information criterion (BIC) score: 24085.1116
+
+Total tree length (sum of branch lengths): 0.8965
+Sum of internal branch lengths: 0.3865 (43.1122% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'RpShaanxi2011|Bat-R_pusillus|Shaanxi|JX993987|2011-09' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++---RpShaanxi2011|Bat-R_pusillus|Shaanxi|JX993987|2011-09
+|
+|  +--HuB2013|Bat-Bat-R_sinicus|Hubei|KJ473814|2013-04
++--| (42)
+|  |  +--279_2005|Bat-R_macrotis|Hubei|DQ648857|2004-11
+|  +--| (94)
+|     +--Rm1|Bat-R_macrotis|Hubei|DQ412043|2004-11
+|
+|                                            +--CoVZC45|Bat-R_sinicus|Zhoushan-Dinghai|MG772933|2017-02
+|                                    +-------| (100)
+|                                    |       +--CoVZXC21|Bat-R_sinicus|Zhoushan-Dinghai|MG772934|2015-07
+|                              +-----| (100)
+|                              |     |     +--Wuhan-Hu-1|SARS-CoV-2|Wuhan|MN908947|2019-12
+|                              |     |  +--| (100)
+|                              |     |  |  +--RaTG13|Bat-R_affinis|Yunnan|EPI_ISL_402131|2013-07-24
+|                              |     +--| (75)
+|                              |        +--Pangolin-CoV|pangolin|Guandong|EPI_ISL_410721|2020-02-16
+|            +-----------------| (100)
+|            |                 +------P2V|pangolin|Guangxi|EPI_ISL_410542|2017
++------------| (88)
+             +---------------------------------------------BM48-31|Bat-R_blasii|Bulgaria|NC_014470|2008-04
+
+Tree in newick format:
+
+(RpShaanxi2011|Bat-R_pusillus|Shaanxi|JX993987|2011-09:0.0331076703,(HuB2013|Bat-Bat-R_sinicus|Hubei|KJ473814|2013-04:0.0098777595,(279_2005|Bat-R_macrotis|Hubei|DQ648857|2004-11:0.0012399291,Rm1|Bat-R_macrotis|Hubei|DQ412043|2004-11:0.0007408690)94:0.0126107462)42:0.0055241444,((((CoVZC45|Bat-R_sinicus|Zhoushan-Dinghai|MG772933|2017-02:0.0120383462,CoVZXC21|Bat-R_sinicus|Zhoushan-Dinghai|MG772934|2015-07:0.0056789876)100:0.0623185831,((Wuhan-Hu-1|SARS-CoV-2|Wuhan|MN908947|2019-12:0.0178454708,RaTG13|Bat-R_affinis|Yunnan|EPI_ISL_402131|2013-07-24:0.0150069574)100:0.0168316881,Pangolin-CoV|pangolin|Guandong|EPI_ISL_410721|2020-02-16:0.0250882063)75:0.0125319602)100:0.0501256692,P2V|pangolin|Guangxi|EPI_ISL_410542|2017:0.0529978337)100:0.1325748479,BM48-31|Bat-R_blasii|Bulgaria|NC_014470|2008-04:0.3363730499)88:0.0939795504);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -11923.422081
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++---RpShaanxi2011|Bat-R_pusillus|Shaanxi|JX993987|2011-09
+|
+|  +--HuB2013|Bat-Bat-R_sinicus|Hubei|KJ473814|2013-04
++--| (42)
+|  |  +--279_2005|Bat-R_macrotis|Hubei|DQ648857|2004-11
+|  +--| (94)
+|     +--Rm1|Bat-R_macrotis|Hubei|DQ412043|2004-11
+|
+|                                            +--CoVZC45|Bat-R_sinicus|Zhoushan-Dinghai|MG772933|2017-02
+|                                    +-------| (100)
+|                                    |       +--CoVZXC21|Bat-R_sinicus|Zhoushan-Dinghai|MG772934|2015-07
+|                              +-----| (100)
+|                              |     |     +--Wuhan-Hu-1|SARS-CoV-2|Wuhan|MN908947|2019-12
+|                              |     |  +--| (100)
+|                              |     |  |  +--RaTG13|Bat-R_affinis|Yunnan|EPI_ISL_402131|2013-07-24
+|                              |     +--| (75)
+|                              |        +--Pangolin-CoV|pangolin|Guandong|EPI_ISL_410721|2020-02-16
+|            +-----------------| (100)
+|            |                 +------P2V|pangolin|Guangxi|EPI_ISL_410542|2017
++------------| (88)
+             +---------------------------------------------BM48-31|Bat-R_blasii|Bulgaria|NC_014470|2008-04
+
+
+Consensus tree in newick format: 
+
+(RpShaanxi2011|Bat-R_pusillus|Shaanxi|JX993987|2011-09:0.0330194652,(HuB2013|Bat-Bat-R_sinicus|Hubei|KJ473814|2013-04:0.0098770721,(279_2005|Bat-R_macrotis|Hubei|DQ648857|2004-11:0.0012412501,Rm1|Bat-R_macrotis|Hubei|DQ412043|2004-11:0.0007396385)94:0.0126105946)42:0.0055740512,((((CoVZC45|Bat-R_sinicus|Zhoushan-Dinghai|MG772933|2017-02:0.0120405448,CoVZXC21|Bat-R_sinicus|Zhoushan-Dinghai|MG772934|2015-07:0.0056789580)100:0.0623263401,((Wuhan-Hu-1|SARS-CoV-2|Wuhan|MN908947|2019-12:0.0178476363,RaTG13|Bat-R_affinis|Yunnan|EPI_ISL_402131|2013-07-24:0.0150086346)100:0.0168349546,Pangolin-CoV|pangolin|Guandong|EPI_ISL_410721|2020-02-16:0.0250883293)75:0.0125319003)100:0.0501289819,P2V|pangolin|Guangxi|EPI_ISL_410542|2017:0.0529985146)100:0.1325975018,BM48-31|Bat-R_blasii|Bulgaria|NC_014470|2008-04:0.3362928470)88:0.0939655307);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/NRA3_core_Block4_3prime.treefile -m "GTR{1.35501,4.213,2.08301,0.681431,6.45422}+F{0.283261,0.22288,0.199593,0.294266}+G4{0.257372}" --length 4962
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/alignments/78_taxa/NRA3_core_Block4_3prime.aln.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/alignments/78_taxa/NRA3_core_Block4_3prime.aln.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Sep 24 21:09:10 2026
+Total CPU time used: 5.65309 seconds (0h:0m:5s)
+Total wall-clock time used: 0.785721393 seconds (0h:0m:0s)
+

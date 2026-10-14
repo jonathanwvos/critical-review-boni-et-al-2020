@@ -1,0 +1,17 @@
+Dataset,Partition,Num_Taxa,De_Novo_Length_nt,Boni_Original_Length_nt,Gap_Only_Columns,Total_Gap_Percent
+68_taxa,Region_B,68,5506,5526,0,1.51
+68_taxa,Region_C,68,2533,2535,0,0.0
+68_taxa,Region_Aprime,68,5017,N/A,0,0.0
+68_taxa,NRR1_pruned,63,13048,13081,0,0.59
+68_taxa,NRR1_full,68,13045,N/A,0,0.55
+68_taxa,NRR2,68,9857,9868,1,0.08
+68_taxa,NRA3,66,28065,28065,0,67.91
+68_taxa,Spike,68,3714,N/A,0,4.44
+78_taxa,Region_B,78,5547,N/A,0,2.2
+78_taxa,Region_C,78,2533,N/A,0,0.0
+78_taxa,Region_Aprime,78,5017,N/A,0,0.0
+78_taxa,NRR1_pruned,73,13060,N/A,0,0.66
+78_taxa,NRR1_full,78,13070,N/A,0,0.73
+78_taxa,NRR2,78,9856,N/A,1,0.07
+78_taxa,NRA3,78,30337,N/A,211,66.41
+78_taxa,Spike,78,3741,N/A,0,5.16

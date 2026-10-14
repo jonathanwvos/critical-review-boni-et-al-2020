@@ -1,0 +1,347 @@
+IQ-TREE multicore version 2.2.6 COVID-edition for Linux 64-bit built Dec  8 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Rubicon (AVX512, FMA3, 30 GB RAM)
+Command: /home/jono/miniconda3/envs/phylo/bin/iqtree2 -s /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/alignments/78_taxa/Region_C.aln.fasta -m GTR+G4 --trees /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/candidates_5trees.tre --test 10000 --test-au --prefix /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/au_test_5trees_Region_C -T 4 -redo
+Seed:    854767 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Sep 23 21:14:59 2026
+Kernel:  AVX+FMA - 4 threads (16 CPU cores detected)
+
+Reading alignment file /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/alignments/78_taxa/Region_C.aln.fasta ... Fasta format detected
+Reading fasta file: done in 0.00112779 secs using 78.29% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00118115 secs using 329.9% CPU
+Alignment has 78 sequences with 2533 columns, 998 distinct patterns
+1022 parsimony-informative, 104 singleton sites, 1407 constant sites
+                                                                         Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 7.4279e-05 secs using 72.7% CPU
+   1  RpShaanxi2011|Bat-R_pusillus|Shaanxi|JX993987|2011-09                      0.00%    passed     16.64%
+   2  HuB2013|Bat-Bat-R_sinicus|Hubei|KJ473814|2013-04                           0.00%    passed     71.23%
+   3  279_2005|Bat-R_macrotis|Hubei|DQ648857|2004-11                             0.00%    passed     82.61%
+   4  Rm1|Bat-R_macrotis|Hubei|DQ412043|2004-11                                  0.00%    passed     80.35%
+   5  Longquan_140|Bat-R_monoceros|China|KF294457|2012                           0.00%    passed     76.50%
+   6  HKU3-1|Bat-R_sinicus|Hong_Kong|DQ022305|2005-02-17                         0.00%    passed     49.04%
+   7  HKU3-3|Bat-R_sinicus|Hong_Kong|DQ084200|2005-03-17                         0.00%    passed     49.04%
+   8  HKU3-2|Bat-R_sinicus|Hong_Kong|DQ084199|2005-02-24                         0.00%    passed     49.04%
+   9  HKU3-4|Bat-R_sinicus|Hong_Kong|GQ153539|2005-07-20                         0.00%    passed     51.30%
+  10  HKU3-6|Bat-R_sinicus|Hong_Kong|GQ153541|2005-12-16                         0.00%    passed     49.04%
+  11  HKU3-5|Bat-R_sinicus|Hong_Kong|GQ153540|2005-09-20                         0.00%    passed     49.04%
+  12  HKU3-10|Bat-R_sinicus|Hong_Kong|GQ153545|2006-10-28                        0.00%    passed     47.74%
+  13  HKU3-9|Bat-R_sinicus|Hong_Kong|GQ153544|2006-10-28                         0.00%    passed     47.74%
+  14  HKU3-11|Bat-R_sinicus|Hong_King|GQ153546|2007-03-07                        0.00%    passed     45.78%
+  15  HKU3-13|Bat-R_sinicus|Hong_Kong|GQ153548|2007-11-15                        0.00%    passed     51.30%
+  16  HKU3-12|Bat-R_sinicus|Hong_Kong|GQ153547|2007-05-15                        0.00%    passed     54.73%
+  17  HKU3-7|Bat-R_sinicus|Guangdong|GQ153542|2006-02-15                         0.00%    passed     47.06%
+  18  HKU3-8|Bat-R_sinicus|Guangdong|GQ153543|2006-02-15                         0.00%    passed     54.38%
+  19  GX2013|Bat-R_sinicus|Guangxi|KJ473815|2012-11                              0.00%    passed     99.84%
+  20  Rp3|Bat-R_pearsoni|Guangxi-Nanning|DQ071615|2004-12                        0.00%    passed     98.84%
+  21  Rf4092|Bat-R_ferrumequinum|Yunnan-Kunming|KY417145|2012-09-18              0.00%    passed     99.34%
+  22  YN2013|Bat-R_sinicus|Yunnan|KJ473816|2010-12                               0.00%    passed     99.04%
+  23  Anlong-103|Bat-R_sinicus|Guizhou-Anlong|KY770858|2013                      0.00%    passed     86.58%
+  24  Anlong-112|Bat-R_sinicus|Guizhou-Anlong|KY770859|2013                      0.00%    passed     84.31%
+  25  Rs4231|Bat-R_sinicus|Yunnan-Kunming|KY417146|2013-04-17                    0.00%    passed     97.83%
+  26  WIV16|Bat-R_sinicus|Yunnan-Kunming|KT444582|2013-07-21                     0.00%    passed     93.79%
+  27  Rs4874|Bat-R_sinicus|Yunnan-Kunming|KY417150|2013-07-21                    0.00%    passed     95.83%
+  28  YN2018B|Bat-R_affinis|Yunnan|MK211376|2016-09                              0.00%    passed     97.99%
+  29  Rs7327|Bat-R_sinicus|Yunnan--Kunming|KY417151|2014-10-24                   0.00%    passed     98.49%
+  30  Rs9401|Bat-R_sinicus|Yunnan-Kunming|KY417152|2015-10-16                    0.00%    passed     98.78%
+  31  RsSHC014|Bat-R_sinicus|Yunnan-Kunming|KC881005|2011-04-17                  0.00%    passed     97.23%
+  32  Rs3367|Bat-R_sinicus|Yunnan-Kunming|KC881006|2012-03-19                    0.00%    passed     98.78%
+  33  WIV1|Bat-R_sinicus|Yunnan-Kunming|KF367457|2012-09                         0.00%    passed     98.78%
+  34  Rs4084|Bat-R_sinicus|Yunnan-Kunming|KY417144|2012-09-18                    0.00%    passed     94.85%
+  35  YN2018C|Bat-R_affinis|Yunnan-Kunming|MK211377|2016-09                      0.00%    passed     96.03%
+  36  As6526|Bat-Aselliscus_stoliczkanus|Yunnan-Kunming|KY417142|2014-05-12      0.00%    passed     98.59%
+  37  Rs4237|Bat-R_sinicus|Yunnan-Kunming|KY417147|2013-04-17                    0.00%    passed     99.48%
+  38  Rs4247|Bat-R_sinicus|Yunnan-Kunming|KY417148|2013-04-17                    0.00%    passed     99.48%
+  39  YN2018A|Bat-R_affinis|Yunnan|MK211375|2016-09                              0.00%    passed     99.12%
+  40  YN2018D|Bat-R_affinis|Yunnan|MK211378|2016-09                              0.00%    passed     98.59%
+  41  Rs4081|Bat-R_sinicus|Yunnan-Kunming|KY417143|2012-09-18                    0.00%    passed     95.70%
+  42  Rs4255|Bat-R_sinicus|Yunnan-Kunming|KY417149|2013-04-17                    0.00%    passed     98.20%
+  43  Rs672|Bat-R_sinicus|Guizhou|FJ588686|2006-09                               0.00%    passed     97.57%
+  44  HSZ-Cc|SARS-CoV-1|Guangzhou|AY394995|2002                                  0.00%    passed     95.81%
+  45  F46|Bat-R_pusillus|Yunnan|KU973692|2012                                    0.00%    passed     98.39%
+  46  YNLF_31C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886808|2013-05-23             0.00%    passed     90.56%
+  47  YNLF_34C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886809|2013-05-23             0.00%    passed     90.56%
+  48  LYRa11|Bat-R_affinis|Yunnan-Baoshan|KF569996|2011                          0.00%    passed     77.16%
+  49  Yunnan2011|Bat-Chaerephon_plicata|Yunnan|JX993988|2011-11                  0.00%    passed     92.40%
+  50  SC2018|Bat-R_spp|Sichuan|MK211374|2016-10                                  0.00%    passed     84.08%
+  51  JL2012|Bat-R_ferrumequinum|Jilin|KJ473811|2012-10                          0.00%    passed     72.71%
+  52  JTMC15|Bat-R_ferrumequinum|Jilin|KU182964|2013-10                          0.00%    passed     74.78%
+  53  HeB2013|Bat-R_ferrumequinum|Hebei|KJ473812|2013-04                         0.00%    passed     40.13%
+  54  SX2013|Bat-R_ferrumequinum|Shanxi|KJ473813|2013-11                         0.00%    passed     38.29%
+  55  Jiyuan-84|Bat-R_ferrumequinum|Henan-Jiyuan|KY770860|2012                   0.00%    passed     25.96%
+  56  Rf1|Bat-R_ferrumequinum|Hubei-Yichang|DQ412042|2004-11                     0.00%    passed     35.76%
+  57  CoVZC45|Bat-R_sinicus|Zhoushan-Dinghai|MG772933|2017-02                    0.00%    passed      5.93%
+  58  CoVZXC21|Bat-R_sinicus|Zhoushan-Dinghai|MG772934|2015-07                   0.00%    passed      6.25%
+  59  PrC31|Bat-R_spp|Yunnan|EPI_ISL_1098866|2018-08                             0.04%    failed      1.50%
+  60  Wuhan-Hu-1|SARS-CoV-2|Wuhan|MN908947|2019-12                               0.00%    failed      2.27%
+  61  RaTG13|Bat-R_affinis|Yunnan|EPI_ISL_402131|2013-07-24                      0.00%    passed      7.74%
+  62  RShSTT182|Bat-R_shameli|Steung_Treng-Cambodia|EPI_ISL_852604|2010-12-06    0.00%    failed      4.08%
+  63  RShSTT200|Bat-R_shameli|Steung_Treng-Cambodia|EPI_ISL_852605|2010-12-06    0.00%    failed      4.08%
+  64  RmYN02|EPI_ISL_412977|China|Yunnan|Xishuangbanna|2019-06-25                0.00%    failed      1.76%
+  65  RpYN06                                                                     0.00%    passed      5.79%
+  66  RacCS203|Bat-R_acuminatus|Thailand|MW251308.1|2020-06-19                   0.00%    failed      3.11%
+  67  Pangolin-CoV|pangolin|Guandong|EPI_ISL_410721|2020-02-16                   0.00%    passed     10.75%
+  68  P4L|pangolin|Guangxi|EPI_ISL_410538|2017                                   0.00%    passed      7.16%
+  69  P5L|pangolin|Guangxi||EPI_ISL_410540|2017                                  0.00%    passed      7.75%
+  70  P5E|pangolin|Guangxi|EPI_ISL_410541|2017                                   0.00%    passed      7.69%
+  71  P1E|pangolin|Guangxi|EPI_ISL_410539|2017                                   0.00%    passed      7.75%
+  72  P2V|pangolin|Guangxi|EPI_ISL_410542|2017                                   0.00%    passed      8.61%
+  73  Rc-o319|Bat-R_cornutus|Iwate-Japan|LC556375.1|2013                         0.00%    passed     81.61%
+  74  BtKY72|Bat-R_spp|Kenya|KY352407|2007-10                                    0.00%    passed     59.23%
+  75  BM48-31|Bat-R_blasii|Bulgaria|NC_014470|2008-04                            0.00%    passed     95.40%
+  76  RsYN04                                                                     0.00%    passed     99.64%
+  77  RmYN05                                                                     0.00%    passed     99.71%
+  78  RmYN08                                                                     0.00%    passed     99.71%
+****  TOTAL                                                                      0.00%  6 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: HKU3-3|Bat-R_sinicus|Hong_Kong|DQ084200|2005-03-17 is identical to HKU3-1|Bat-R_sinicus|Hong_Kong|DQ022305|2005-02-17 but kept for subsequent analysis
+NOTE: HKU3-9|Bat-R_sinicus|Hong_Kong|GQ153544|2006-10-28 is identical to HKU3-10|Bat-R_sinicus|Hong_Kong|GQ153545|2006-10-28 but kept for subsequent analysis
+NOTE: Rs4247|Bat-R_sinicus|Yunnan-Kunming|KY417148|2013-04-17 is identical to Rs4237|Bat-R_sinicus|Yunnan-Kunming|KY417147|2013-04-17 but kept for subsequent analysis
+NOTE: YNLF_34C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886809|2013-05-23 is identical to YNLF_31C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886808|2013-05-23 but kept for subsequent analysis
+NOTE: RShSTT200|Bat-R_shameli|Steung_Treng-Cambodia|EPI_ISL_852605|2010-12-06 is identical to RShSTT182|Bat-R_shameli|Steung_Treng-Cambodia|EPI_ISL_852604|2010-12-06 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00014958 secs using 1620% CPU
+Identifying sites to remove: done in 0.000841789 secs using 100% CPU
+NOTE: 3 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: HKU3-2|Bat-R_sinicus|Hong_Kong|DQ084199|2005-02-24 (identical to HKU3-1|Bat-R_sinicus|Hong_Kong|DQ022305|2005-02-17) is ignored but added at the end
+NOTE: HKU3-6|Bat-R_sinicus|Hong_Kong|GQ153541|2005-12-16 (identical to HKU3-1|Bat-R_sinicus|Hong_Kong|DQ022305|2005-02-17) is ignored but added at the end
+NOTE: HKU3-5|Bat-R_sinicus|Hong_Kong|GQ153540|2005-09-20 (identical to HKU3-1|Bat-R_sinicus|Hong_Kong|DQ022305|2005-02-17) is ignored but added at the end
+Alignment was printed to /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/au_test_5trees_Region_C.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/au_test_5trees_Region_C.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.004 seconds
+
+NOTE: 9 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -23315.041
+2. Current log-likelihood: -21332.368
+3. Current log-likelihood: -21267.285
+4. Current log-likelihood: -21263.222
+5. Current log-likelihood: -21262.915
+6. Current log-likelihood: -21262.800
+Optimal log-likelihood: -21262.779
+Rate parameters:  A-C: 0.96749  A-G: 7.31960  A-T: 2.37858  C-G: 0.57544  C-T: 13.91632  G-T: 1.00000
+Base frequencies:  A: 0.248  C: 0.192  G: 0.202  T: 0.357
+Gamma shape alpha: 0.256
+Parameters optimization took 6 rounds (0.175 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00355469 secs using 407.8% CPU
+Computing ML distances took 0.003668 sec (of wall-clock time) 0.014612 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000129663 secs using 392.6% CPU
+Constructing RapidNJ tree: done in 0.0103691 secs using 258.3% CPU
+Computing RapidNJ tree took 0.010538 sec (of wall-clock time) 0.027335 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -21303.810
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.402 second
+Computing log-likelihood of 98 initial trees ... 0.281 seconds
+Current best score: -21257.487
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 0.0413912 secs using 397.1% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -21239.801
+Optimizing NNI: done in 0.0629795 secs using 396.7% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -21238.894
+Optimizing NNI: done in 0.0481423 secs using 396.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -21236.590
+Optimizing NNI: done in 0.0447859 secs using 395% CPU
+Optimizing NNI: done in 0.0501696 secs using 403% CPU
+BETTER TREE FOUND at iteration 5: -21236.590
+Optimizing NNI: done in 0.0694054 secs using 395.3% CPU
+BETTER TREE FOUND at iteration 6: -21236.590
+Optimizing NNI: done in 0.0525627 secs using 400.6% CPU
+Optimizing NNI: done in 0.0453762 secs using 390.9% CPU
+Optimizing NNI: done in 0.044898 secs using 398.4% CPU
+Optimizing NNI: done in 0.045537 secs using 403% CPU
+Iteration 10 / LogL: -21240.702 / Time: 0h:0m:1s
+Optimizing NNI: done in 0.0523578 secs using 399.8% CPU
+Optimizing NNI: done in 0.0498261 secs using 399.1% CPU
+Optimizing NNI: done in 0.0504871 secs using 395.1% CPU
+Optimizing NNI: done in 0.051481 secs using 397.2% CPU
+Optimizing NNI: done in 0.0542095 secs using 397% CPU
+Optimizing NNI: done in 0.0493335 secs using 404.1% CPU
+Optimizing NNI: done in 0.0435197 secs using 403.3% CPU
+Optimizing NNI: done in 0.0453285 secs using 397.8% CPU
+Optimizing NNI: done in 0.0455864 secs using 402.7% CPU
+Optimizing NNI: done in 0.0477358 secs using 395.4% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 20: -21235.332
+Iteration 20 / LogL: -21235.332 / Time: 0h:0m:1s
+Finish initializing candidate tree set (16)
+Current best tree score: -21235.332 / CPU time: 1.736
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 0.0535785 secs using 394.9% CPU
+Optimizing NNI: done in 0.0770123 secs using 393.5% CPU
+Optimizing NNI: done in 0.0773616 secs using 397.3% CPU
+Optimizing NNI: done in 0.0670093 secs using 395.5% CPU
+Optimizing NNI: done in 0.073749 secs using 395.6% CPU
+Optimizing NNI: done in 0.0708259 secs using 399.3% CPU
+Optimizing NNI: done in 0.0720067 secs using 394.4% CPU
+Optimizing NNI: done in 0.0865911 secs using 396.8% CPU
+Optimizing NNI: done in 0.0845251 secs using 395.7% CPU
+Optimizing NNI: done in 0.0840973 secs using 399.6% CPU
+Iteration 30 / LogL: -21235.342 / Time: 0h:0m:2s (0h:0m:8s left)
+Optimizing NNI: done in 0.0556006 secs using 398.7% CPU
+Optimizing NNI: done in 0.096388 secs using 395.1% CPU
+Optimizing NNI: done in 0.0914328 secs using 391.5% CPU
+Optimizing NNI: done in 0.0872898 secs using 396.7% CPU
+Optimizing NNI: done in 0.0834608 secs using 395.9% CPU
+Optimizing NNI: done in 0.111283 secs using 397.3% CPU
+Optimizing NNI: done in 0.0881851 secs using 402.8% CPU
+Optimizing NNI: done in 0.0789697 secs using 400.1% CPU
+Optimizing NNI: done in 0.0776305 secs using 392.4% CPU
+Optimizing NNI: done in 0.0725636 secs using 400% CPU
+Iteration 40 / LogL: -21238.952 / Time: 0h:0m:3s (0h:0m:7s left)
+Optimizing NNI: done in 0.0660232 secs using 395.2% CPU
+Optimizing NNI: done in 0.0694597 secs using 394.9% CPU
+Optimizing NNI: done in 0.0957648 secs using 399.1% CPU
+Optimizing NNI: done in 0.067836 secs using 397.2% CPU
+Optimizing NNI: done in 0.119158 secs using 395.1% CPU
+Optimizing NNI: done in 0.0654952 secs using 401.9% CPU
+Optimizing NNI: done in 0.0995163 secs using 395.5% CPU
+Optimizing NNI: done in 0.0805895 secs using 397.2% CPU
+Optimizing NNI: done in 0.0679455 secs using 395% CPU
+Optimizing NNI: done in 0.100205 secs using 394.8% CPU
+Iteration 50 / LogL: -21235.573 / Time: 0h:0m:4s (0h:0m:6s left)
+Optimizing NNI: done in 0.0707159 secs using 399.2% CPU
+Optimizing NNI: done in 0.0842892 secs using 400.4% CPU
+Optimizing NNI: done in 0.0887023 secs using 396.8% CPU
+Optimizing NNI: done in 0.0601938 secs using 393.6% CPU
+Optimizing NNI: done in 0.078215 secs using 394.2% CPU
+Optimizing NNI: done in 0.0817064 secs using 399.1% CPU
+Optimizing NNI: done in 0.080448 secs using 395.5% CPU
+Optimizing NNI: done in 0.0812977 secs using 400.9% CPU
+Optimizing NNI: done in 0.0609267 secs using 396.9% CPU
+Optimizing NNI: done in 0.0938522 secs using 396.7% CPU
+Iteration 60 / LogL: -21240.354 / Time: 0h:0m:5s (0h:0m:5s left)
+Optimizing NNI: done in 0.0588961 secs using 399.9% CPU
+Optimizing NNI: done in 0.0787543 secs using 392.9% CPU
+Optimizing NNI: done in 0.13383 secs using 397.2% CPU
+Optimizing NNI: done in 0.07822 secs using 395.7% CPU
+Optimizing NNI: done in 0.0885333 secs using 398.8% CPU
+Optimizing NNI: done in 0.0742959 secs using 397.4% CPU
+Optimizing NNI: done in 0.0737149 secs using 399.6% CPU
+Optimizing NNI: done in 0.102316 secs using 401.4% CPU
+Optimizing NNI: done in 0.0644369 secs using 400.9% CPU
+Optimizing NNI: done in 0.0809409 secs using 400.1% CPU
+Iteration 70 / LogL: -21256.679 / Time: 0h:0m:6s (0h:0m:4s left)
+Optimizing NNI: done in 0.077378 secs using 396.8% CPU
+Optimizing NNI: done in 0.0637098 secs using 399.8% CPU
+Optimizing NNI: done in 0.0994211 secs using 394.6% CPU
+Optimizing NNI: done in 0.0503008 secs using 393.6% CPU
+Optimizing NNI: done in 0.0666431 secs using 401.4% CPU
+Optimizing NNI: done in 0.0750015 secs using 397% CPU
+Optimizing NNI: done in 0.109679 secs using 398.8% CPU
+Optimizing NNI: done in 0.0600784 secs using 394.6% CPU
+Optimizing NNI: done in 0.0707828 secs using 396.5% CPU
+Optimizing NNI: done in 0.0689688 secs using 393.9% CPU
+Iteration 80 / LogL: -21235.475 / Time: 0h:0m:6s (0h:0m:3s left)
+Optimizing NNI: done in 0.0822124 secs using 391.6% CPU
+Optimizing NNI: done in 0.0676296 secs using 397.2% CPU
+Optimizing NNI: done in 0.0616606 secs using 400% CPU
+Optimizing NNI: done in 0.0619029 secs using 398.8% CPU
+Optimizing NNI: done in 0.0706144 secs using 391.7% CPU
+Optimizing NNI: done in 0.105872 secs using 393.7% CPU
+Optimizing NNI: done in 0.0840919 secs using 398.6% CPU
+Optimizing NNI: done in 0.0781376 secs using 401.8% CPU
+Optimizing NNI: done in 0.0705887 secs using 393.2% CPU
+Optimizing NNI: done in 0.0879263 secs using 395% CPU
+Iteration 90 / LogL: -21235.351 / Time: 0h:0m:7s (0h:0m:2s left)
+Optimizing NNI: done in 0.0836317 secs using 394.7% CPU
+Optimizing NNI: done in 0.0871567 secs using 400.2% CPU
+Optimizing NNI: done in 0.0935704 secs using 394.9% CPU
+Optimizing NNI: done in 0.073792 secs using 400.8% CPU
+Optimizing NNI: done in 0.0785415 secs using 397.9% CPU
+Optimizing NNI: done in 0.0794199 secs using 397.1% CPU
+Optimizing NNI: done in 0.104572 secs using 400.1% CPU
+Optimizing NNI: done in 0.0709479 secs using 399.9% CPU
+Optimizing NNI: done in 0.0847548 secs using 395.7% CPU
+Optimizing NNI: done in 0.0839435 secs using 392.6% CPU
+Iteration 100 / LogL: -21238.906 / Time: 0h:0m:8s (0h:0m:1s left)
+Optimizing NNI: done in 0.0814315 secs using 395.6% CPU
+Optimizing NNI: done in 0.061944 secs using 399.9% CPU
+Optimizing NNI: done in 0.0716738 secs using 396.9% CPU
+Optimizing NNI: done in 0.0841248 secs using 395.7% CPU
+Optimizing NNI: done in 0.0677298 secs using 394.6% CPU
+Optimizing NNI: done in 0.0960004 secs using 398.6% CPU
+Optimizing NNI: done in 0.0842534 secs using 397.8% CPU
+Optimizing NNI: done in 0.0942712 secs using 397% CPU
+Optimizing NNI: done in 0.0792668 secs using 397.7% CPU
+Optimizing NNI: done in 0.0716153 secs using 401.6% CPU
+Iteration 110 / LogL: -21242.450 / Time: 0h:0m:9s (0h:0m:0s left)
+Optimizing NNI: done in 0.0807605 secs using 395.9% CPU
+Optimizing NNI: done in 0.102604 secs using 394.3% CPU
+Optimizing NNI: done in 0.0630494 secs using 398.1% CPU
+Optimizing NNI: done in 0.0913213 secs using 397.7% CPU
+Optimizing NNI: done in 0.0767726 secs using 396.9% CPU
+Optimizing NNI: done in 0.0753343 secs using 396% CPU
+Optimizing NNI: done in 0.0813536 secs using 398.7% CPU
+Optimizing NNI: done in 0.0739856 secs using 397.3% CPU
+Optimizing NNI: done in 0.0806008 secs using 395.3% CPU
+Optimizing NNI: done in 0.0838684 secs using 398.1% CPU
+Iteration 120 / LogL: -21235.344 / Time: 0h:0m:10s (0h:0m:0s left)
+Optimizing NNI: done in 0.0751228 secs using 398.1% CPU
+TREE SEARCH COMPLETED AFTER 121 ITERATIONS / Time: 0h:0m:10s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -21235.332
+Optimal log-likelihood: -21235.332
+Rate parameters:  A-C: 0.95012  A-G: 7.24637  A-T: 2.35922  C-G: 0.55937  C-T: 13.96367  G-T: 1.00000
+Base frequencies:  A: 0.248  C: 0.192  G: 0.202  T: 0.357
+Gamma shape alpha: 0.256
+Parameters optimization took 1 rounds (0.009 sec)
+BEST SCORE FOUND : -21235.332
+Total tree length: 2.749
+
+Total number of iterations: 121
+CPU time used for tree search: 38.179 sec (0h:0m:38s)
+Wall-clock time used for tree search: 9.912 sec (0h:0m:9s)
+Total CPU time used: 39.093 sec (0h:0m:39s)
+Total wall-clock time used: 10.149 sec (0h:0m:10s)
+Reading trees in /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/candidates_5trees.tre ...
+
+5 trees detected
+Note: 38.613 MB of RAM required!
+Creating 10000 bootstrap replicates...
+done
+Tree 1 / LogL: -22366.710
+Tree 2 / LogL: -21235.332
+Tree 3 / LogL: -24482.271
+Tree 4 / LogL: -21880.825
+Tree 5 / LogL: -23471.134
+Performing RELL-BP test...
+Performing KH and SH test...
+Performing ELW test...
+Performing approximately unbiased (AU) test...
+3 MB required for AU test
+Generating 10 x 10000 multiscale bootstrap replicates... 0.483 seconds
+TreeID	AU	RSS	d	c
+1	0.000	0.000	13.822	-4.699
+2	1.000	0.511	-9.089	1.945
+3	0.000	4.282	3.719	0.226
+4	0.000	0.031	15.685	-5.245
+5	0.000	3.824	4.265	0.203
+Time for AU test: 0.484 seconds
+Time for evaluating all trees: 0.912 sec.
+
+Analysis results written to: 
+  IQ-TREE report:                /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/au_test_5trees_Region_C.iqtree
+  Maximum-likelihood tree:       /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/au_test_5trees_Region_C.treefile
+  Likelihood distances:          /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/au_test_5trees_Region_C.mldist
+  Evaluated user trees:          /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/au_test_5trees_Region_C.trees
+  Screen log file:               /home/jono/obsidian/rubicon/Bioinformatics/Assignments/Critical Review/reproduction/trees/78_taxa/au_test_5trees_Region_C.log
+
+Date and Time: Wed Sep 23 21:15:10 2026
